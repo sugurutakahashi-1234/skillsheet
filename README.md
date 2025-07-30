@@ -154,16 +154,6 @@
 
 ##### 技術検証リポジトリ
 
-- **openapi-gen-learning:** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
-  - https://github.com/sugurutakahashi-1234/openapi-gen-learning
-  - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
-  - 生成されたクライアントコードを実際に React と TanStack Query で使用し、ブラウザ上で動作確認
-  - 使用技術：
-    - モノレポ管理: pnpm workspace
-    - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
-    - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
-    - フロントエンド: React, TanStack Query
-    - モック: Prism（OpenAPI モックサーバー）
 - **hono-learning:** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
   - https://github.com/sugurutakahashi-1234/hono-learning
   - pnpm workspace によるモノレポ管理によって各パッケージ（shared / database / server / web-client / api-client）を適切な依存関係での連携
@@ -178,6 +168,25 @@
     - 環境変数: dotenvx（環境変数暗号化）, @t3-oss/env-core（環境変数の型安全性の担保）
     - コード品質: Biome, Knip（デッドコード検出）, husky（Git Hooks）, Commitlint（サブタイトル必須）
     - CI/CD: GitHub Actions, git-cliff（CHANGELOG 自動生成）, Renovate（依存関係更新）
+- **openapi-gen-learning:** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
+  - https://github.com/sugurutakahashi-1234/openapi-gen-learning
+  - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
+  - 生成されたクライアントコードを実際に React と TanStack Query で使用し、ブラウザ上で動作確認
+  - 使用技術：
+    - モノレポ管理: pnpm workspace
+    - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
+    - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
+    - フロントエンド: React, TanStack Query
+    - モックサーバー: Prism
+- **router-learning:** React Router v7 と TanStack Router の 2 つのルーティングライブラリを比較検証するプロジェクト
+  - https://github.com/sugurutakahashi-1234/router-learning
+  - React Router v7 と TanStack Router を File-Based Routing と Code-Based Routing の両方で実装し 4パターンの実装を比較検証
+  - 比較記事を Zenn に投稿 → [React Router v7 / TanStack Router x File-Based / Code-Based 4パターン実装比較](https://zenn.dev/ikuraikura/articles/2025-06-25-router)
+  - 使用技術：
+    - フロントエンド: React, TanStack Query, Vite
+    - ルーティング: React Router v7、TanStack Router
+    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
+    - モックサーバー: Prism
 - **css-learning:** 7つの異なるCSSライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
   - https://github.com/sugurutakahashi-1234/css-learning
   - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログAPIをバックエンドとし、各CSSライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
@@ -186,18 +195,6 @@
     - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
     - 型安全API: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
-- **router-learning:** React Router v7とTanStack Routerの包括的な比較学習
-  - https://github.com/sugurutakahashi-1234/router-learning
-  - 4つのルーティング実装パターンの比較（File-Based vs Code-Based × 2つのライブラリ）
-  - 実践的なルーティング戦略の評価と推奨事項の提供
-  - 使用技術：
-    - フロントエンド: React, TypeScript, Vite
-    - ルーティング: React Router v7, TanStack Router
-    - スタイリング: Tailwind CSS v4
-    - データフェッチング: TanStack Query
-    - APIモック: Prism
-    - コード品質: Biome
-    - モノレポ: pnpm workspace
 - **turborepo-bun-learning:** BunとTurborepoを使用した高性能モノレポの学習
   - https://github.com/sugurutakahashi-1234/turborepo-bun-learning
   - インテリジェントキャッシング、並列実行、インクリメンタルビルドの検証
