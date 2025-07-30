@@ -183,9 +183,9 @@
   - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログAPIをバックエンドとし、各CSSライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
   - 使用技術：
     - フロントエンド: React, TanStack Query, TanStack Router, Vite
-    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、CVA（class-variance-authority）、Tailwind Variants
-    - 型安全API: openapi-typescript（型生成）、openapi-fetch、openapi-react-query
-    - モックサーバー: Prism（OpenAPI準拠）
+    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
+    - 型安全API: openapi-typescript、openapi-fetch、openapi-react-query
+    - モックサーバー: Prism
 - **router-learning:** React Router v7とTanStack Routerの包括的な比較学習
   - https://github.com/sugurutakahashi-1234/router-learning
   - 4つのルーティング実装パターンの比較（File-Based vs Code-Based × 2つのライブラリ）
