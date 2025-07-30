@@ -132,8 +132,7 @@
 
 #### OSS ライブラリ
 
-- **ai-chat-md-export:** ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
-  - https://github.com/sugurutakahashi-1234/ai-chat-md-export
+- **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export):** ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
   - npm パッケージ, Homebrew パッケージ, GitHub Releases（Windows, macOS, Linux の各プラットフォームに対応した実行バイナリ）でリリース
   - プライバシーファーストで完全ローカル処理、高速な大量データ処理（数千の会話を数秒で変換）
   - 日付範囲の指定やキーワード検索によるフィルタリング機能の対応
@@ -143,8 +142,7 @@
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
     - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
     - コード品質: Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
-- **mermaid-markdown-wrap:** Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
-  - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
+- **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap):** Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
   - npm パッケージ, GitHub Actions Marketplace での配布
   - 型安全な設定ファイルのサポート（JSON / YAML / JS / TS 対応、TypeScript 向けヘルパー関数提供）
   - `init` コマンドによる対話形式の初期設定機能
@@ -157,8 +155,7 @@
 
 #### 技術検証リポジトリ
 
-- **hono-learning:** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
-  - https://github.com/sugurutakahashi-1234/hono-learning
+- **[hono-learning](https://github.com/sugurutakahashi-1234/hono-learning):** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
   - pnpm workspace によるモノレポ管理によって各パッケージ（shared / database / server / web-client / api-client）を適切な依存関係での連携
   - Hono を用いて型安全な OpenAPI 仕様を生成し、その仕様から型安全な API クライアントとレスポンスの型定義を自動生成
   - 使用技術：
@@ -171,8 +168,7 @@
     - 環境変数: dotenvx（環境変数暗号化）, @t3-oss/env-core（環境変数の型安全性の担保）
     - コード品質: Biome, Knip（デッドコード検出）, husky（Git Hooks）, Commitlint（サブタイトル必須）
     - CI/CD: GitHub Actions, git-cliff（CHANGELOG 自動生成）, Renovate（依存関係更新）
-- **openapi-gen-learning:** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
-  - https://github.com/sugurutakahashi-1234/openapi-gen-learning
+- **[openapi-gen-learning](https://github.com/sugurutakahashi-1234/openapi-gen-learning):** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
   - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
   - 生成されたクライアントコードを実際に React と TanStack Query で使用し、ブラウザ上で動作確認
   - 使用技術：
@@ -181,16 +177,14 @@
     - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
     - フロントエンド: React, TanStack Query
     - モックサーバー: Prism
-- **css-learning:** 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
-  - https://github.com/sugurutakahashi-1234/css-learning
+- **[css-learning](https://github.com/sugurutakahashi-1234/css-learning):** 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
   - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログ API をバックエンドとし、各 CSS ライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
   - 使用技術：
     - フロントエンド: React, TanStack Query, TanStack Router, Vite
     - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
     - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
-- **router-learning:** React Router v7 と TanStack Router の 2 つのルーティングライブラリを比較検証するプロジェクト
-  - https://github.com/sugurutakahashi-1234/router-learning
+- **[router-learning](https://github.com/sugurutakahashi-1234/router-learning):** React Router v7 と TanStack Router の 2 つのルーティングライブラリを比較検証するプロジェクト
   - React Router v7 と TanStack Router を File-Based Routing と Code-Based Routing の両方で実装し 4パターンの実装を比較検証
   - 比較記事を Zenn に投稿 → [React Router v7 / TanStack Router x File-Based / Code-Based 4パターン実装比較](https://zenn.dev/ikuraikura/articles/2025-06-25-router)
   - 使用技術：
