@@ -59,21 +59,21 @@
 
 ### TypeScript開発
 
-- **OSSライブラリ開発**
-  - npmパッケージとして2つのCLIツールを開発・公開
-  - 複数の配布チャネルの確立（npm, Homebrew tap, GitHub Actions Marketplace）
-- **CLIツール開発**
-  - commander, @clack/prompts を使用した対話型CLIの構築
-  - cosmiconfig による柔軟な設定ファイル対応、Zod/Valibot によるバリデーション
-- **フロントエンド開発**
-  - React を使用したモダンなWeb開発
-  - TanStack Router/Query による高度なルーティング・データフェッチング
-- **バックエンド開発**
-  - Hono フレームワークによる高速なAPI開発
-  - Prisma ORM を使用したタイプセーフなデータベース操作
-- **モノレポ管理**
-  - Turborepo, pnpm workspace, Bun workspace を使用した効率的なモノレポ構築
-  - パッケージ間の依存関係管理と並列ビルドの最適化
+- **OSS開発**
+  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT/Claude のチャット履歴を Markdown 変換する CLI ツール。npm/Homebrew/GitHub Releases で配布
+  - [mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap): Mermaid ファイルを Markdown コードブロックでラップする CLI ツール。npm/GitHub Actions Marketplace で配布
+- **フルスタック TypeScript**
+  - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベース（Prisma）まで TypeScript で統一的に開発
+  - OpenAPI 仕様からの型生成により、API クライアント・サーバー・フロントエンドで型安全性を保証
+- **モダンな技術スタックの習得**
+  - TanStack Router/Query、Hono、Prisma ORM などの最新ライブラリを実践的に活用
+  - Zod/Valibot による実行時検証、pnpm workspace によるモノレポ管理
+- **アーキテクチャ設計**
+  - Clean Architecture、レイヤードアーキテクチャを TypeScript の型システムと調和させた設計
+  - 複数の技術選択肢（CSS ライブラリ、ルーティングライブラリ、OpenAPI 生成ツール）の比較検証による技術選定力
+- **開発環境の構築**
+  - GitHub Actions による CI/CD パイプライン、release-please による自動リリース
+  - Biome、Knip、Renovate を活用した継続的なコード品質向上の仕組み構築
 
 ### チーム開発
 
