@@ -79,6 +79,7 @@
 ### フリーランス (2021年07月 - 現在)
 
 - 2025年
+  - [No.11] TypeScript製OSS開発・技術学習 - 個人開発
   - [No.10] NFTゲームアプリ開発 - Flutter リードエンジニア（WEB3 特化 SIer F社）
 - 2024年
   - [No.9] SNSアプリ開発 - iOS リードエンジニア（SIer E社）
@@ -100,6 +101,179 @@
   - [No.1] クレジットカードアプリ API 開発 - サーバーサイドエンジニア
 
 ※ 各案件の詳細は以下のプルダウンから確認可能。
+
+---
+
+<details><summary>No11. TypeScript製OSS開発・技術学習 - 個人開発</summary>
+
+## No11. TypeScript製OSS開発・技術学習 - 個人開発
+
+#### 概要
+
+- TypeScript製のOSSライブラリ開発と技術学習のためのリポジトリ群
+- 実用的なCLIツールの開発と、モダンなフロントエンド技術の比較・学習
+
+##### OSSライブラリ
+
+- **mermaid-markdown-wrap:** Mermaidダイアグラムファイル(.mmd/.mermaid)をMarkdownコードブロックでラップし、GitHub/GitLabで図として表示可能にするツール
+  - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
+  - CLI、npmパッケージ、GitHub Actionとして提供
+  - 設定ファイル対応（JSON、YAML、JS、TS）による柔軟なカスタマイズ
+  - インタラクティブな初期設定コマンド（init）
+  - 使用技術：
+    - CLI基盤: commander
+    - 対話型UI: @clack/prompts
+    - ファイル処理: globby
+    - 設定管理: cosmiconfig（複数形式対応）
+    - バリデーション: valibot
+    - YAML処理: yaml
+    - ビルドツール: Bun
+    - CI/CD: GitHub Actions（自動変換、PRコメント生成）
+    - アーキテクチャ: Clean Architecture（domain/application/infrastructure/presentation層）
+- **ai-chat-md-export:** ChatGPTとClaudeのチャット履歴を読みやすいMarkdownファイルに変換するCLIツール
+  - https://github.com/sugurutakahashi-1234/ai-chat-md-export
+  - プライバシーファースト設計（データの外部送信なし）
+  - 高度なフィルタリング機能（日付範囲、キーワード検索）
+  - クロスプラットフォーム対応（Windows、macOS、Linux）
+  - 複数の配布方法（npm、Homebrew、直接ダウンロード）
+  - 使用技術：
+    - CLI基盤: commander
+    - コンソール出力: consola
+    - プログレス表示: ora
+    - バリデーション: zod
+    - ビルドツール: Bun
+    - 配布: npm、Homebrew tap、GitHub Releases
+    - アーキテクチャ: Clean Architecture（domain/application/infrastructure/presentation層）、プライバシー重視設計（ローカル処理のみ）
+
+##### 技術学習リポジトリ
+
+- **router-learning:** React Router v7とTanStack Routerの包括的な比較学習
+  - https://github.com/sugurutakahashi-1234/router-learning
+  - 4つのルーティング実装パターンの比較（File-Based vs Code-Based × 2つのライブラリ）
+  - 実践的なルーティング戦略の評価と推奨事項の提供
+  - 使用技術：
+    - フロントエンド: React 19, TypeScript, Vite
+    - ルーティング: React Router v7, TanStack Router
+    - スタイリング: Tailwind CSS v4
+    - データフェッチング: TanStack Query
+    - APIモック: Prism（OpenAPI準拠のモックサーバー）
+    - コード品質: BiomeJS
+    - モノレポ: pnpm workspace
+- **turborepo-bun-learning:** BunとTurborepoを使用した高性能モノレポの学習
+  - https://github.com/sugurutakahashi-1234/turborepo-bun-learning
+  - インテリジェントキャッシング、並列実行、インクリメンタルビルド
+  - モノレポアーキテクチャの理解とビルド最適化の実践
+  - 使用技術：
+    - ビルドツール: Turborepo, Bun
+    - フロントエンド: React 19, TypeScript
+    - 実験的ツール: rolldown-vite（Viteの代替）
+    - テスト: Vitest, @vitest/ui
+    - コード品質: BiomeJS
+    - パフォーマンス計測: カスタムベンチマークスクリプト
+- **css-learning:** 異なるCSS実装アプローチを探求するブログアプリケーション
+  - https://github.com/sugurutakahashi-1234/css-learning
+  - 複数のスタイリング手法の比較実装
+  - モダンなCSS戦略の実践的な学習
+  - 使用技術：
+    - フロントエンド: React 19, TypeScript, Vite
+    - スタイリング: Tailwind CSS v4（今後複数のCSS手法を比較実装予定）
+    - データフェッチング: TanStack Query, openapi-typescript
+    - APIモック: Prism（OpenAPI準拠）
+    - コード品質: BiomeJS
+    - テスト: Vitest
+    - モノレポ: pnpm workspace
+    - Node.js: v24以上必須
+- **hono-learning:** Honoフレームワークを中心とした包括的なモダンWeb開発の学習
+  - https://github.com/sugurutakahashi-1234/hono-learning
+  - HonoによるタイプセーフなバックエンドAPI開発
+  - フロントエンドとバックエンドを含むフルスタック実装
+  - 環境変数の暗号化とセキュアな設定管理
+  - 使用技術：
+    - バックエンド: Hono, Prisma ORM, PostgreSQL, Zod, OpenAPI
+    - フロントエンド: React, Vite, React Router v7
+    - データベース: Prisma ORM, PostgreSQL
+    - テスト: Vitest, Playwright
+    - 環境管理: dotenvx（環境変数暗号化）
+    - モノレポ: pnpm workspace
+    - CI/CD: GitHub Actions
+- **bun-workspace-learning:** Bun Workspaceを使用したモノレポ管理の学習
+  - https://github.com/sugurutakahashi-1234/bun-workspace-learning
+  - Bunのワークスペース機能を活用した依存関係管理
+  - モノレポでのパッケージ間連携の実装
+  - 高速なパッケージ管理と開発体験の向上
+  - 使用技術：
+    - パッケージマネージャー: Bun（workspace機能）
+    - 言語: TypeScript
+    - モノレポ構造: workspace protocol を使用したローカルパッケージ依存
+    - 開発ツール: BiomeJS
+    - パッケージ構成: package-a が package-b に依存する実装例
+- **openapi-gen-learning:** OpenAPIクライアント生成ツールの包括的な比較学習
+  - https://github.com/sugurutakahashi-1234/openapi-gen-learning
+  - 5つの異なるOpenAPIスキーマ生成ツールの実装と比較
+  - 大規模プロジェクトに最適なツール選定の実践的な検証
+  - 使用技術：
+    - コード生成ツール: Hey API, openapi-typescript, Orval
+    - バリデーション: Zod, Valibot
+    - フロントエンド: React, Vite, TypeScript
+    - 状態管理: TanStack Query
+    - APIモック: Prism（5つの異なるクライアント実装で同一のモックサーバーを使用）
+    - 開発ツール: concurrently（並列実行）, tsx（TypeScript実行）
+    - コード品質: BiomeJS
+    - モノレポ: pnpm workspace
+    - Node.js: v24以上必須
+
+#### 主な技術的成果
+
+- **実用的なOSSツールの開発・公開**
+  - npmパッケージとして2つのCLIツールを公開（mermaid-markdown-wrap、ai-chat-md-export）
+  - Clean Architectureによる保守性の高い設計
+  - 複数の配布チャネル（npm、Homebrew、GitHub Actions）の確立
+
+- **モダンなWeb技術の体系的な比較検証**
+  - ルーティングライブラリの実装パターン比較（React Router v7 vs TanStack Router × File-Based vs Code-Based）
+  - OpenAPIクライアント生成ツールの評価（Hey API、openapi-typescript、Orval など5ツール）
+  - モノレポツールの実践的な検証（Turborepo、Bun Workspace、pnpm workspace）
+
+- **フルスタック開発の実践**
+  - フロントエンド：React 19、TypeScript、Tailwind CSS v4、各種ルーティングソリューション
+  - バックエンド：Hono、Prisma ORM、PostgreSQL、OpenAPI駆動開発
+  - インフラ：エッジランタイム対応、環境変数暗号化（dotenvx）、CI/CD自動化
+
+#### 経験できたこと・貢献できたこと
+
+- **CLIツールの設計と実装**
+  - ユーザビリティを重視したコマンドラインインターフェース設計
+  - 複数の配布方法（npm、Homebrew、直接ダウンロード）の提供
+  - GitHub Action としての提供による CI/CD パイプラインへの統合
+- **プライバシーとセキュリティ**
+  - ローカル処理による個人情報保護の実現
+  - 外部サービスへのデータ送信を行わない設計
+- **開発者体験の向上**
+  - 詳細なドキュメントとサンプルコードの提供
+  - 設定ファイルによる柔軟なカスタマイズ性
+  - エラーメッセージの分かりやすさを重視
+- **OSS コミュニティへの貢献**
+  - MIT ライセンスによるオープンソース公開
+  - Issue や Pull Request への迅速な対応
+  - セマンティックバージョニングによる後方互換性の維持
+- **技術選定と比較検証**
+  - 実践的な比較プロジェクトによる技術評価
+  - 学習リポジトリを通じた知識の体系化と共有
+  - 各技術の長所・短所の明確化とユースケースの提示
+
+### 主要な技術スタック
+
+- **言語・ランタイム:** TypeScript 5.8.3, Node.js v20+, Bun
+- **フロントエンド:** React 19, Vite, Tailwind CSS v4
+- **バックエンド:** Hono, Prisma ORM, PostgreSQL
+- **アーキテクチャ:** Clean Architecture, モノレポ（Turborepo/pnpm/Bun Workspace）
+- **CI/CD:** GitHub Actions, npm/Homebrew配布
+
+### まとめ
+
+OSSライブラリの開発と技術学習リポジトリを通じて、フロントエンド・バックエンド・インフラを含むフルスタック開発の実践的な知識を獲得。特に、技術選定のための体系的な比較検証と、実用的なツールの開発・公開により、モダンなWeb開発における最新技術の深い理解と実装力を身につけた。
+
+</details>
 
 ---
 
