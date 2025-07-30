@@ -124,43 +124,35 @@
 
 #### 概要
 
-- TypeScript製のOSSライブラリ開発と技術学習のためのリポジトリ群
-- 実用的なCLIツールの開発と、モダンなフロントエンド技術の比較・学習
+- TypeScript 製の OSS ライブラリ開発（実用的な CLI ツール）
+- モダンな TypeScript 技術の包括的な学習・比較検証のためのリポジトリ群
 
 ##### OSSライブラリ
 
-- **mermaid-markdown-wrap:** Mermaidダイアグラムファイル(.mmd/.mermaid)をMarkdownコードブロックでラップし、GitHub/GitLabで図として表示可能にするツール
-  - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
-  - CLI、npmパッケージ、GitHub Actionとして提供
-  - 設定ファイル対応（JSON、YAML、JS、TS）による柔軟なカスタマイズ
-  - インタラクティブな初期設定コマンド（init）
-  - 使用技術：
-    - CLI基盤: commander
-    - 対話型UI: @clack/prompts
-    - glob検索: globby
-    - 設定ファイルの読み込み: cosmiconfig, cosmiconfig-typescript-loader
-    - バリデーション: valibot
-    - ビルドツール: Bun
-    - CI/CD: GitHub Actions（自動変換、PRコメント生成）
-    - アーキテクチャ: Clean Architecture（domain/application/infrastructure/presentation層）
-    - リリース管理: release-please
-- **ai-chat-md-export:** ChatGPTとClaudeのチャット履歴を読みやすいMarkdownファイルに変換するCLIツール
+- **ai-chat-md-export:** ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
   - https://github.com/sugurutakahashi-1234/ai-chat-md-export
-  - プライバシーファースト設計（データの外部送信なし）
-  - 高度なフィルタリング機能（日付範囲、キーワード検索）
-  - クロスプラットフォーム対応（Windows、macOS、Linux）
-  - 複数の配布方法（npm、Homebrew、直接ダウンロード）
+  - npm パッケージ, Homebrew パッケージ, GitHub Releases（Windows, macOS, Linux の各プラットフォームに対応した実行バイナリ）でリリース
+  - プライバシーファーストで完全ローカル処理、高速な大量データ処理（数千の会話を数秒で変換）
+  - 日付範囲の指定やキーワード検索によるフィルタリング機能の対応
   - 使用技術：
-    - CLI基盤: commander
-    - コンソール出力: consola
-    - プログレス表示: ora
-    - バリデーション: zod
-    - ビルドツール: Bun
-    - 配布: npm、Homebrew tap、GitHub Releases (windows、macOS、Linux)
     - アーキテクチャ: Clean Architecture
-    - リリース管理: release-please, release-it
+    - CLI開発: Commander.js（CLI構築）, Ora（スピナー）, Consola（ロギング）
+    - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
+    - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
+    - コード品質: Biome, husky, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（未使用コード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+- **mermaid-markdown-wrap:** Mermaid ファイル (.mmd / .mermaid) を Markdown
+  - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
+  - npm パッケージ, GitHub Actions Marketplace での配布
+  - 型安全な設定ファイルのサポート（JSON / YAML / JS / TS 対応、TypeScript 向けヘルパー関数提供）
+  - `init` コマンドによる対話形式の初期設定機能
+  - 使用技術：
+    - アーキテクチャ: レイヤードアーキテクチャ
+    - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）
+    - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）
+    - CI/CD: GitHub Actions, release-please（自動リリース）
+    - コード品質: act（GitHub Actionsローカルテスト）, Biome, husky, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（未使用コード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
 
-##### 技術学習リポジトリ
+##### 技術検証リポジトリ
 
 - **openapi-gen-learning:** OpenAPIクライアント生成ツールの包括的な比較学習
   - https://github.com/sugurutakahashi-1234/openapi-gen-learning
