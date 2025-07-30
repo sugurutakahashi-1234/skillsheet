@@ -58,7 +58,7 @@
 - **CI/CD**
   - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などの CI/CD ツールを用いた自動ビルド・デプロイ環境の構築
 
-### TypeScript開発
+### TypeScript
 
 - **OSS開発**
   - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**: 
