@@ -161,7 +161,7 @@
   - 使用技術：
     - モノレポ管理: pnpm workspace
     - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
-    - HTTPクライアント: @hey-api/client-fetch, openapi-fetch, axios
+    - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
     - フロントエンド: React, TanStack Query
     - モック: Prism（OpenAPI モックサーバー）
 - **hono-learning:** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
@@ -172,24 +172,20 @@
     - モノレポ管理: pnpm workspace
     - データベース: Prisma ORM, PostgreSQL
     - サーバーサイド: Hono, @hono/zod-openapi
-    - APIクライアント: openapi-typescript, openapi-fetch
-    - フロントエンド: React, React Router, Vite
+    - APIクライアント: openapi-typescript, openapi-fetch, openapi-react-query
+    - フロントエンド: React, TanStack Query, Vite
     - テスト: Vitest, Playwright, Storybook
     - 環境変数: dotenvx（環境変数暗号化）, @t3-oss/env-core（環境変数の型安全性の担保）
     - コード品質: Biome, Knip（デッドコード検出）, husky（Git Hooks）, Commitlint（サブタイトル必須）
     - CI/CD: GitHub Actions, git-cliff（CHANGELOG 自動生成）, Renovate（依存関係更新）
-- **css-learning:** 異なるCSS実装アプローチを探求するブログアプリケーション
+- **css-learning:** 7つの異なるCSSライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
   - https://github.com/sugurutakahashi-1234/css-learning
-  - 複数のスタイリング手法の比較実装
-  - モダンなCSS戦略の実践的な学習
+  - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログAPIをバックエンドとし、各CSSライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
   - 使用技術：
-    - モノレポ管理: pnpm workspace
-    - フロントエンド: React, TypeScript, Vite
-    - スタイリング: Tailwind CSS v4
-    - データフェッチング: TanStack Query, openapi-typescript
-    - APIモック: Prism
-    - コード品質: Biome
-    - テスト: Vitest
+    - フロントエンド: React, TanStack Query, TanStack Router, Vite
+    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、CVA（class-variance-authority）、Tailwind Variants
+    - 型安全API: openapi-typescript（型生成）、openapi-fetch、openapi-react-query
+    - モックサーバー: Prism（OpenAPI準拠）
 - **router-learning:** React Router v7とTanStack Routerの包括的な比較学習
   - https://github.com/sugurutakahashi-1234/router-learning
   - 4つのルーティング実装パターンの比較（File-Based vs Code-Based × 2つのライブラリ）
