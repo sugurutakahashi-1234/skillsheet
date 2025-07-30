@@ -11,18 +11,19 @@
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
 - **高度な技術の実装経験**：Clean Architecture の適応, IoT 連携、視線・感情分析 SDK の組み込み
 - **チーム開発**：PdM、デザイナー、バックエンドとの要件策定・仕様調整、チームの進捗管理、開発プロセスの改善
-- **OSS開発**：TypeScript 製 CLI ツール開発、npm / Homebrew / GitHub Actions Marketplace 配布
+- **OSS開発**：TypeScript 製 CLI ツール 2つを開発・公開、npm / Homebrew / GitHub Actions Marketplace で配布
 
 ### スキル
 
-- **モバイルアプリ開発**: Swift (7年), SwiftUI, UIKit, Flutter
+- **言語**: Swift (7年), TypeScript, JavaScript, PHP, Java
+- **モバイルアプリ開発**: SwiftUI, UIKit, Swift Package Manager, Flutter
 - **Web クライアント**: React, TanStack Router/Query, Tailwind CSS, shadcn/ui
-- **サーバーサイド**: REST API 設計, GraphQL 設計, Hono, Node.js, Express, PHP, Java
-- **データベース**: テーブル定義設計、PostgreSQL, MySQL, Firestore
+- **サーバーサイド**: TypeScript (Hono), REST API 設計, GraphQL 設計, Node.js, Express, PHP, Java
 - **アーキテクチャ**: Clean Architecture, VIPER, MVVM, Redux, Riverpod
+- **データベース**: テーブル定義設計, Prisma ORM, PostgreSQL, MySQL, Firestore
 - **クラウド**: Firebase, AWS Amplify (AppSync, Cognito, S3), GCP
-- **プロジェクト管理**: Scrum Master 経験, アジャイル開発 (Jira, GitHub Projects, Zenhub)
 - **CI/CD**: Xcode Cloud, GitHub Actions, Bitrise
+- **プロジェクト管理**: Scrum Master 経験, アジャイル開発 (Jira, GitHub Projects, Zenhub)
 
 ## 基本情報
 
@@ -60,8 +61,8 @@
 ### TypeScript開発
 
 - **OSS開発**
-  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT/Claude のチャット履歴を Markdown 変換する CLI ツール。npm/Homebrew/GitHub Releases で配布
-  - [mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap): Mermaid ファイルを Markdown コードブロックでラップする CLI ツール。npm/GitHub Actions Marketplace で配布
+  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT/Claude のチャット履歴を Markdown 変換する CLI ツール。npm / Homebrew / GitHub Releases で配布
+  - [mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap): Mermaid ファイルを Markdown コードブロックでラップする CLI ツール。npm / GitHub Actions Marketplace で配布
 - **フルスタック TypeScript**
   - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベース（Prisma）まで TypeScript で統一的に開発
   - OpenAPI 仕様からの型生成により、API クライアント・サーバー・フロントエンドで型安全性を保証
