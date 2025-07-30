@@ -178,6 +178,14 @@
     - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
     - フロントエンド: React, TanStack Query
     - モックサーバー: Prism
+- **css-learning:** 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
+  - https://github.com/sugurutakahashi-1234/css-learning
+  - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログ API をバックエンドとし、各 CSS ライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
+  - 使用技術：
+    - フロントエンド: React, TanStack Query, TanStack Router, Vite
+    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
+    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
+    - モックサーバー: Prism
 - **router-learning:** React Router v7 と TanStack Router の 2 つのルーティングライブラリを比較検証するプロジェクト
   - https://github.com/sugurutakahashi-1234/router-learning
   - React Router v7 と TanStack Router を File-Based Routing と Code-Based Routing の両方で実装し 4パターンの実装を比較検証
@@ -185,14 +193,6 @@
   - 使用技術：
     - フロントエンド: React, TanStack Query, Vite
     - ルーティング: React Router v7、TanStack Router
-    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
-    - モックサーバー: Prism
-- **css-learning:** 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
-  - https://github.com/sugurutakahashi-1234/css-learning
-  - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログ API をバックエンドとし、各 CSS ライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
-  - 使用技術：
-    - フロントエンド: React, TanStack Query, TanStack Router, Vite
-    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
     - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
 
