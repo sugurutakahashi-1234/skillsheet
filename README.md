@@ -61,8 +61,10 @@
 ### TypeScript開発
 
 - **OSS開発**
-  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT / Claude のチャット履歴を Markdown 変換する CLI ツール。npm / Homebrew / GitHub Releases で配布
-  - [mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap): Mermaid ファイルを Markdown コードブロックでラップする CLI ツール。npm / GitHub Actions Marketplace で配布
+  - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**: 
+    - ChatGPT や Claude のチャット履歴を Markdown 変換する CLI ツール（npm, Homebrew, GitHub Releases で配布）
+  - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap)**: 
+    - Mermaid ファイルを Markdown コードブロックでラップする CLI ツール（npm, GitHub Actions Marketplace で配布）
 - **フルスタック TypeScript**
   - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベース（Prisma）まで TypeScript で統一的に開発
   - OpenAPI 仕様からの型生成により、API クライアント・サーバー・フロントエンドで型安全性を保証
