@@ -79,7 +79,7 @@
 ### フリーランス (2021年07月 - 現在)
 
 - 2025年
-  - [No.11] TypeScript製OSS開発・技術学習 - 個人開発
+  - [No.11] TypeScript製OSS開発・技術学習 - 個人開発（TypeScript）
   - [No.10] NFTゲームアプリ開発 - Flutter リードエンジニア（WEB3 特化 SIer F社）
 - 2024年
   - [No.9] SNSアプリ開発 - iOS リードエンジニア（SIer E社）
@@ -123,13 +123,13 @@
   - 使用技術：
     - CLI基盤: commander
     - 対話型UI: @clack/prompts
-    - ファイル処理: globby
-    - 設定管理: cosmiconfig（複数形式対応）
+    - glob検索: globby
+    - 設定ファイルの読み込み: cosmiconfig, cosmiconfig-typescript-loader
     - バリデーション: valibot
-    - YAML処理: yaml
     - ビルドツール: Bun
     - CI/CD: GitHub Actions（自動変換、PRコメント生成）
     - アーキテクチャ: Clean Architecture（domain/application/infrastructure/presentation層）
+    - リリース管理: release-please
 - **ai-chat-md-export:** ChatGPTとClaudeのチャット履歴を読みやすいMarkdownファイルに変換するCLIツール
   - https://github.com/sugurutakahashi-1234/ai-chat-md-export
   - プライバシーファースト設計（データの外部送信なし）
@@ -142,8 +142,9 @@
     - プログレス表示: ora
     - バリデーション: zod
     - ビルドツール: Bun
-    - 配布: npm、Homebrew tap、GitHub Releases
-    - アーキテクチャ: Clean Architecture（domain/application/infrastructure/presentation層）、プライバシー重視設計（ローカル処理のみ）
+    - 配布: npm、Homebrew tap、GitHub Releases (windows、macOS、Linux)
+    - アーキテクチャ: Clean Architecture
+    - リリース管理: release-please, release-it
 
 ##### 技術学習リポジトリ
 
@@ -263,11 +264,11 @@
 
 ### 主要な技術スタック
 
-- **言語・ランタイム:** TypeScript 5.8.3, Node.js v20+, Bun
+- **言語・ランタイム:** TypeScript 5.8, Node.js v24, Bun 1.2
 - **フロントエンド:** React 19, Vite, Tailwind CSS v4
 - **バックエンド:** Hono, Prisma ORM, PostgreSQL
 - **アーキテクチャ:** Clean Architecture, モノレポ（Turborepo/pnpm/Bun Workspace）
-- **CI/CD:** GitHub Actions, npm/Homebrew配布
+- **CI/CD:** GitHub Actions, npm/Homebrew配布, release-please, release-it
 
 ### まとめ
 
