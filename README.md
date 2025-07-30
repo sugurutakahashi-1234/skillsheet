@@ -11,21 +11,24 @@
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
 - **高度な技術の実装経験**：Clean Architecture の適応, IoT 連携、視線・感情分析 SDK の組み込み
 - **チーム開発**：PdM、デザイナー、バックエンドとの要件策定・仕様調整、チームの進捗管理、開発プロセスの改善
+- **OSS開発**：TypeScript 製 CLI ツール開発、npm / Homebrew / GitHub Actions Marketplace 配布
 
 ### スキル
 
-* **モバイルアプリ開発**: Swift (7年), Flutter, SwiftUI, UIKit
-* **アーキテクチャ**: Clean Architecture, VIPER, MVVM, Redux, Riverpod + Hooks
-* **バックエンド**: PHP, Java, Node.js, REST API設計, GraphQL, テーブル設計
-* **クラウド/mBaaS**: Firebase, AWS Amplify (AppSync, Cognito, S3), GCP
-* **プロジェクト管理**: Scrum Master 経験, アジャイル開発経験 (Jira, GitHub Projects, Zenhub)
-* **CI/CD**: Xcode Cloud, GitHub Actions, Bitrise
+- **モバイルアプリ開発**: Swift (7年), SwiftUI, UIKit, Flutter
+- **Web クライアント**: React, TanStack Router/Query, Tailwind CSS, shadcn/ui
+- **サーバーサイド**: REST API 設計, GraphQL 設計, Hono, Node.js, Express, PHP, Java
+- **データベース**: テーブル定義設計、PostgreSQL, MySQL, Firestore
+- **アーキテクチャ**: Clean Architecture, VIPER, MVVM, Redux, Riverpod
+- **クラウド**: Firebase, AWS Amplify (AppSync, Cognito, S3), GCP
+- **プロジェクト管理**: Scrum Master 経験, アジャイル開発 (Jira, GitHub Projects, Zenhub)
+- **CI/CD**: Xcode Cloud, GitHub Actions, Bitrise
 
 ## 基本情報
 
 - **所在**: 東京
 - **外部リンク**:
-  - GitHub - https://github.com/suguruTakahashi-1234
+  - GitHub - https://github.com/sugurutakahashi-1234
   - X - https://twitter.com/ikuraikuraaaaaa
   - Qiita - https://qiita.com/sugurutakahashi12345
   - Zenn - https://zenn.dev/ikuraikura
@@ -54,6 +57,17 @@
 - **CI/CD**
   - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などの CI/CD ツールを用いた自動ビルド・デプロイ環境の構築
 
+### TypeScript開発
+
+- **TypeScript**
+  - CLIツール開発（commander, @clack/prompts, globby, cosmiconfig）
+  - モノレポ管理（Turborepo, pnpm workspace, Bun workspace）
+  - フロントエンド（React 19, React Router, TanStack Router/Query, Tailwind CSS, shadcn/ui）
+  - バックエンド（Hono, Prisma ORM, PostgreSQL）
+  - OSSライブラリの開発・公開（npm, Homebrew tap, GitHub Actions Marketplace）
+  - スキーマ駆動開発（OpenAPI, Zod, Valibot）
+  - Clean Architectureの適用
+
 ### チーム開発
 
 - **リードエンジニア(4件)**
@@ -79,10 +93,10 @@
 ### フリーランス (2021年07月 - 現在)
 
 - 2025年
-  - [No.11] TypeScript製OSS開発・技術学習 - 個人開発（TypeScript）
-  - [No.10] NFTゲームアプリ開発 - Flutter リードエンジニア（WEB3 特化 SIer F社）
+  - [No.11] TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）
+  - [No.10] NFT ゲームアプリ開発 - Flutter リードエンジニア（WEB3 特化 SIer F社）
 - 2024年
-  - [No.9] SNSアプリ開発 - iOS リードエンジニア（SIer E社）
+  - [No.9] SNS アプリ開発 - iOS リードエンジニア（SIer E社）
   - [No.8] Clean Architecture ベースの新アーキテクチャの考案 - 個人開発（Swift）
 - 2023年
   - [No.7] マーケティングリサーチアプリ開発 - iOS リードエンジニア（スタートアップ D社）
@@ -104,9 +118,9 @@
 
 ---
 
-<details><summary>No11. TypeScript製OSS開発・技術学習 - 個人開発</summary>
+<details><summary>No11. TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）</summary>
 
-## No11. TypeScript製OSS開発・技術学習 - 個人開発
+## No11. TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）
 
 #### 概要
 
