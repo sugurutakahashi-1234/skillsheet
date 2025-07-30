@@ -66,7 +66,7 @@
   - commander, @clack/prompts を使用した対話型CLIの構築
   - cosmiconfig による柔軟な設定ファイル対応、Zod/Valibot によるバリデーション
 - **フロントエンド開発**
-  - React 19 を使用したモダンなWeb開発
+  - React 19 を使用したモダンなWeb開発を実践し、実際にコンポーネントを実装してブラウザで動作確認まで完了
   - TanStack Router/Query による高度なルーティング・データフェッチング
 - **バックエンド開発**
   - Hono フレームワークによる高速なAPI開発
@@ -127,7 +127,7 @@
 - TypeScript 製の OSS ライブラリ開発（実用的な CLI ツール）
 - モダンな TypeScript 技術の包括的な学習・比較検証のためのリポジトリ群
 
-##### OSSライブラリ
+##### OSS ライブラリ
 
 - **ai-chat-md-export:** ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
   - https://github.com/sugurutakahashi-1234/ai-chat-md-export
@@ -140,7 +140,7 @@
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
     - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
     - コード品質: Biome, husky, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（未使用コード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
-- **mermaid-markdown-wrap:** Mermaid ファイル (.mmd / .mermaid) を Markdown
+- **mermaid-markdown-wrap:** Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
   - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
   - npm パッケージ, GitHub Actions Marketplace での配布
   - 型安全な設定ファイルのサポート（JSON / YAML / JS / TS 対応、TypeScript 向けヘルパー関数提供）
@@ -154,19 +154,16 @@
 
 ##### 技術検証リポジトリ
 
-- **openapi-gen-learning:** OpenAPIクライアント生成ツールの包括的な比較学習
+- **openapi-gen-learning:** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
   - https://github.com/sugurutakahashi-1234/openapi-gen-learning
-  - 5つの異なるOpenAPIスキーマ生成ツールの実装と比較
-  - 大規模プロジェクトに最適なツール選定の実践的な検証
+  - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
+  - React 19 を使用したフロントエンド開発を実践し、実際にコンポーネントを実装してブラウザで動作確認まで完了
   - 使用技術：
-    - コード生成ツール: Hey API, openapi-typescript, Orval
     - モノレポ管理: pnpm workspace
-    - バリデーション: Zod, Valibot
-    - フロントエンド: React, Vite, TypeScript
-    - 状態管理: TanStack Query
-    - APIモック: Prism
-    - 開発ツール: concurrently（並列実行）, tsx（TypeScript実行）
-    - コード品質: Biome
+    - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
+    - HTTPクライアント: @hey-api/client-fetch, openapi-fetch, axios
+    - フロントエンド: React
+    - モック: Prism（OpenAPI モックサーバー）
 - **hono-learning:** Honoフレームワークを中心とした包括的なモダンWeb開発の学習
   - https://github.com/sugurutakahashi-1234/hono-learning
   - HonoによるタイプセーフなバックエンドAPI開発
