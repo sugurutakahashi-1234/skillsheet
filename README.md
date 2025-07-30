@@ -150,7 +150,7 @@
     - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）
     - CI/CD: GitHub Actions, release-please（自動リリース）
-    - コード品質: act（GitHub Actionsローカルテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+    - コード品質: act（GitHub Actions のローカル環境でのテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
 
 ##### 技術検証リポジトリ
 
@@ -187,13 +187,13 @@
     - ルーティング: React Router v7、TanStack Router
     - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
-- **css-learning:** 7つの異なるCSSライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
+- **css-learning:** 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
   - https://github.com/sugurutakahashi-1234/css-learning
-  - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログAPIをバックエンドとし、各CSSライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
+  - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログ API をバックエンドとし、各 CSS ライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
   - 使用技術：
     - フロントエンド: React, TanStack Query, TanStack Router, Vite
     - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
-    - 型安全API: openapi-typescript、openapi-fetch、openapi-react-query
+    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
 - **turborepo-bun-learning:** BunとTurborepoを使用した高性能モノレポの学習
   - https://github.com/sugurutakahashi-1234/turborepo-bun-learning
