@@ -66,7 +66,7 @@
   - commander, @clack/prompts を使用した対話型CLIの構築
   - cosmiconfig による柔軟な設定ファイル対応、Zod/Valibot によるバリデーション
 - **フロントエンド開発**
-  - React 19 を使用したモダンなWeb開発を実践し、実際にコンポーネントを実装してブラウザで動作確認まで完了
+  - React を使用したモダンなWeb開発
   - TanStack Router/Query による高度なルーティング・データフェッチング
 - **バックエンド開発**
   - Hono フレームワークによる高速なAPI開発
@@ -157,12 +157,12 @@
 - **openapi-gen-learning:** 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
   - https://github.com/sugurutakahashi-1234/openapi-gen-learning
   - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
-  - React 19 を使用したフロントエンド開発を実践し、実際にコンポーネントを実装してブラウザで動作確認まで完了
+  - 生成されたクライアントコードを実際に React と TanStack Query で使用し、ブラウザ上で動作確認
   - 使用技術：
     - モノレポ管理: pnpm workspace
     - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
     - HTTPクライアント: @hey-api/client-fetch, openapi-fetch, axios
-    - フロントエンド: React
+    - フロントエンド: React, TanStack Query
     - モック: Prism（OpenAPI モックサーバー）
 - **hono-learning:** Honoフレームワークを中心とした包括的なモダンWeb開発の学習
   - https://github.com/sugurutakahashi-1234/hono-learning
@@ -183,7 +183,7 @@
   - モダンなCSS戦略の実践的な学習
   - 使用技術：
     - モノレポ管理: pnpm workspace
-    - フロントエンド: React 19, TypeScript, Vite
+    - フロントエンド: React, TypeScript, Vite
     - スタイリング: Tailwind CSS v4
     - データフェッチング: TanStack Query, openapi-typescript
     - APIモック: Prism
@@ -194,7 +194,7 @@
   - 4つのルーティング実装パターンの比較（File-Based vs Code-Based × 2つのライブラリ）
   - 実践的なルーティング戦略の評価と推奨事項の提供
   - 使用技術：
-    - フロントエンド: React 19, TypeScript, Vite
+    - フロントエンド: React, TypeScript, Vite
     - ルーティング: React Router v7, TanStack Router
     - スタイリング: Tailwind CSS v4
     - データフェッチング: TanStack Query
@@ -207,7 +207,7 @@
   - モノレポアーキテクチャの理解とビルド最適化の実践
   - 使用技術：
     - ビルドツール: Turborepo, Bun
-    - フロントエンド: React 19, TypeScript
+    - フロントエンド: React, TypeScript
     - テスト: Vitest, @vitest/ui
     - コード品質: Biome
 - **bun-workspace-learning:** Bun Workspaceを使用したモノレポ管理の学習
