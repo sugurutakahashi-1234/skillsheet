@@ -136,7 +136,7 @@
   - 日付範囲の指定やキーワード検索によるフィルタリング機能の対応
   - 使用技術：
     - アーキテクチャ: Clean Architecture
-    - CLI開発: Commander.js（CLI構築）, Ora（スピナー）, Consola（ロギング）
+    - CLI開発: Commander.js（CLI構築）, Ora（スピナー）, Consola（ロギング）, Zod（スキーマバリデーション）
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
     - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
     - コード品質: Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
@@ -147,7 +147,7 @@
   - `init` コマンドによる対話形式の初期設定機能
   - 使用技術：
     - アーキテクチャ: レイヤードアーキテクチャ
-    - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）
+    - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）, Valibot（スキーマバリデーション）
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）
     - CI/CD: GitHub Actions, release-please（自動リリース）
     - コード品質: act（GitHub Actions のローカル環境でのテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
@@ -195,6 +195,23 @@
     - ルーティング: React Router v7、TanStack Router
     - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
+
+#### 経験できたこと・貢献できたこと
+
+- **実用的な OSS ライブラリの開発・運用**
+  - 2つの CLI ツールを npm パッケージとして公開し、実際のユーザーに利用されるプロダクトとして運用を経験できた
+  - Homebrew tap や GitHub Actions Marketplace など、複数の配布チャネルを確立し、ユーザーの利便性を最大化できた
+- **TypeScript の型システムを活用した堅牢な設計**
+  - OpenAPI 仕様から生成される型情報を、サーバー・クライアント・フロントエンドで一貫して活用し、型安全性を保証する開発フローを確立できた
+  - Zod や Valibot を用いた実行時検証と TypeScript の型システムを組み合わせ、コンパイル時と実行時の両方で安全性を担保する実装を経験できた
+  - Clean Architecture の原則を TypeScript の型システムと調和させ、テスタブルで保守性の高いコードベースを実現できた
+- **モダンな TypeScript エコシステムの実践的な習得**
+  - Hono、Prisma、TanStack Router/Query など、最新の TypeScript ライブラリを実際のプロジェクトで活用し、それぞれの特徴や適用場面を深く理解できた
+  - pnpm workspace によるモノレポ管理を実践し、大規模プロジェクトでの効率的な開発手法を習得できた
+  - 異なる技術選択肢（CSS ライブラリ、ルーティングライブラリ、OpenAPI クライアント生成ツール）を実際に比較検証し、技術選定の判断基準を養うことができた
+- **フルスタック TypeScript 開発の実現**
+  - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベースアクセス（Prisma）まで、全てを TypeScript で統一的に開発する経験を積むことができた
+  - この経験により、TypeScript を共通言語として、サーバーサイド開発、CLI ツール開発、Web クライアント開発を横断的に実践できる技術力を獲得できた
 
 </details>
 
