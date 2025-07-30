@@ -59,14 +59,21 @@
 
 ### TypeScript開発
 
-- **TypeScript**
-  - CLIツール開発（commander, @clack/prompts, globby, cosmiconfig）
-  - モノレポ管理（Turborepo, pnpm workspace, Bun workspace）
-  - フロントエンド（React 19, React Router, TanStack Router/Query, Tailwind CSS, shadcn/ui）
-  - バックエンド（Hono, Prisma ORM, PostgreSQL）
-  - OSSライブラリの開発・公開（npm, Homebrew tap, GitHub Actions Marketplace）
-  - スキーマ駆動開発（OpenAPI, Zod, Valibot）
-  - Clean Architectureの適用
+- **OSSライブラリ開発**
+  - npmパッケージとして2つのCLIツールを開発・公開
+  - 複数の配布チャネルの確立（npm, Homebrew tap, GitHub Actions Marketplace）
+- **CLIツール開発**
+  - commander, @clack/prompts を使用した対話型CLIの構築
+  - cosmiconfig による柔軟な設定ファイル対応、Zod/Valibot によるバリデーション
+- **フロントエンド開発**
+  - React 19 を使用したモダンなWeb開発
+  - TanStack Router/Query による高度なルーティング・データフェッチング
+- **バックエンド開発**
+  - Hono フレームワークによる高速なAPI開発
+  - Prisma ORM を使用したタイプセーフなデータベース操作
+- **モノレポ管理**
+  - Turborepo, pnpm workspace, Bun workspace を使用した効率的なモノレポ構築
+  - パッケージ間の依存関係管理と並列ビルドの最適化
 
 ### チーム開発
 
@@ -80,13 +87,6 @@
   - Jira, Confluence, GitHub Projects, Trello, Zenhub など、様々なプロジェクト管理ツールを用いた数多くのアジャイル開発の経験
 - **Scrum Master**
   - Scrum Master として、スプリント計画、実行、レトロスペクティブのファシリテーション、スクラムボードの設計の経験
-
-### その他の技術
-
-- **サーバーサイドエンジニア**
-  - PHP での API の設計・開発、MySQL データベースのテーブル設計、OAuth2.0 による認証・認可の設計と実装
-  - OpenAPI (Swagger) での API インターフェースの共有、Postman を用いた API テストの自動化、JMeter での負荷テストを設計・実施
-  - Express - Node.js での API 開発
 
 ## 職務経歴
 
