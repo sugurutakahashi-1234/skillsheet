@@ -61,7 +61,7 @@
 ### TypeScript開発
 
 - **OSS開発**
-  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT/Claude のチャット履歴を Markdown 変換する CLI ツール。npm / Homebrew / GitHub Releases で配布
+  - [ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export): ChatGPT / Claude のチャット履歴を Markdown 変換する CLI ツール。npm / Homebrew / GitHub Releases で配布
   - [mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap): Mermaid ファイルを Markdown コードブロックでラップする CLI ツール。npm / GitHub Actions Marketplace で配布
 - **フルスタック TypeScript**
   - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベース（Prisma）まで TypeScript で統一的に開発
@@ -128,7 +128,7 @@
 - TypeScript 製の OSS ライブラリ開発（実用的な CLI ツール）
 - モダンな TypeScript 技術の包括的な学習・比較検証のためのリポジトリ群
 
-##### OSS ライブラリ
+#### OSS ライブラリ
 
 - **ai-chat-md-export:** ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
   - https://github.com/sugurutakahashi-1234/ai-chat-md-export
@@ -153,7 +153,7 @@
     - CI/CD: GitHub Actions, release-please（自動リリース）
     - コード品質: act（GitHub Actions のローカル環境でのテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
 
-##### 技術検証リポジトリ
+#### 技術検証リポジトリ
 
 - **hono-learning:** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
   - https://github.com/sugurutakahashi-1234/hono-learning
