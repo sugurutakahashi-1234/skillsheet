@@ -195,25 +195,6 @@
     - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
     - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
     - モックサーバー: Prism
-- **turborepo-bun-learning:** BunとTurborepoを使用した高性能モノレポの学習
-  - https://github.com/sugurutakahashi-1234/turborepo-bun-learning
-  - インテリジェントキャッシング、並列実行、インクリメンタルビルドの検証
-  - モノレポアーキテクチャの理解とビルド最適化の実践
-  - 使用技術：
-    - ビルドツール: Turborepo, Bun
-    - フロントエンド: React, TypeScript
-    - テスト: Vitest, @vitest/ui
-    - コード品質: Biome
-- **bun-workspace-learning:** Bun Workspaceを使用したモノレポ管理の学習
-  - https://github.com/sugurutakahashi-1234/bun-workspace-learning
-  - Bunのワークスペース機能を活用した依存関係管理
-  - モノレポでのパッケージ間連携の実装
-  - 高速なパッケージ管理と開発体験の向上
-  - 使用技術：
-    - パッケージマネージャー: Bun（workspace機能）
-    - 言語: TypeScript
-    - モノレポ管理: Bun Workspace を使用したローカルパッケージ依存
-    - 開発ツール: Biome
 
 #### 主な成果
 
