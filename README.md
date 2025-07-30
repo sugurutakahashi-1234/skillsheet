@@ -139,7 +139,7 @@
     - CLI開発: Commander.js（CLI構築）, Ora（スピナー）, Consola（ロギング）
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
     - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
-    - コード品質: Biome, husky, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（未使用コード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+    - コード品質: Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
 - **mermaid-markdown-wrap:** Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
   - https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap
   - npm パッケージ, GitHub Actions Marketplace での配布
@@ -150,7 +150,7 @@
     - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）
     - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）
     - CI/CD: GitHub Actions, release-please（自動リリース）
-    - コード品質: act（GitHub Actionsローカルテスト）, Biome, husky, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（未使用コード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+    - コード品質: act（GitHub Actionsローカルテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
 
 ##### 技術検証リポジトリ
 
@@ -164,19 +164,20 @@
     - HTTPクライアント: @hey-api/client-fetch, openapi-fetch, axios
     - フロントエンド: React, TanStack Query
     - モック: Prism（OpenAPI モックサーバー）
-- **hono-learning:** Honoフレームワークを中心とした包括的なモダンWeb開発の学習
+- **hono-learning:** Hono フレームワークを軸に、フロントエンド・REST API・データベースアクセスまでを全て TypeScript で実装する、型安全なフルスタック開発の学習プロジェクト
   - https://github.com/sugurutakahashi-1234/hono-learning
-  - HonoによるタイプセーフなバックエンドAPI開発
-  - フロントエンドとバックエンドを含むフルスタック実装
-  - 環境変数の暗号化とセキュアな設定管理
+  - pnpm workspace によるモノレポ管理によって各パッケージ（shared / database / server / web-client / api-client）を適切な依存関係での連携
+  - Hono を用いて型安全な OpenAPI 仕様を生成し、その仕様から型安全な API クライアントとレスポンスの型定義を自動生成
   - 使用技術：
     - モノレポ管理: pnpm workspace
-    - バックエンド: Hono, Prisma ORM, PostgreSQL, Zod, OpenAPI
-    - フロントエンド: React, Vite, React Router v7
     - データベース: Prisma ORM, PostgreSQL
+    - サーバーサイド: Hono, @hono/zod-openapi
+    - APIクライアント: openapi-typescript, openapi-fetch
+    - フロントエンド: React, React Router, Vite
     - テスト: Vitest, Playwright, Storybook
-    - 環境変数管理: dotenvx（環境変数暗号化）
-    - CI/CD: GitHub Actions
+    - 環境変数: dotenvx（環境変数暗号化）, @t3-oss/env-core（環境変数の型安全性の担保）
+    - コード品質: Biome, Knip（デッドコード検出）, husky（Git Hooks）, Commitlint（サブタイトル必須）
+    - CI/CD: GitHub Actions, git-cliff（CHANGELOG 自動生成）, Renovate（依存関係更新）
 - **css-learning:** 異なるCSS実装アプローチを探求するブログアプリケーション
   - https://github.com/sugurutakahashi-1234/css-learning
   - 複数のスタイリング手法の比較実装
