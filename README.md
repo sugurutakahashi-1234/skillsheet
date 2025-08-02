@@ -15,7 +15,7 @@
 
 ### スキル
 
-- **言語**: Swift (7年), TypeScript, JavaScript, PHP, Java
+- **言語**: Swift (7年), Dart, TypeScript, JavaScript, PHP, Java
 - **モバイルアプリ開発**: SwiftUI, UIKit, Swift Package Manager, Flutter
 - **Web クライアント**: React, TanStack Router/Query, Tailwind CSS, shadcn/ui
 - **サーバーサイド**: TypeScript (Hono), REST API 設計, GraphQL 設計, Node.js, Express, PHP, Java
@@ -50,24 +50,26 @@
   - ドローンなどのハードウェア機器の制御や、インカメラを使った視線分析、感情分析といった高度な実装スキルを要するライブラリの組み込み
 - **mBaaS 連携**
   - **Firebase**
-    - Authentication, Firestore, Storage, Analytics, Crashlytics, App Distribution など、Firebase のさまざまなサービスの活用とその実装
+    - Authentication, Firestore, Storage, Analytics, Crashlytics, App Distribution など、Firebase SDK を利用した実装
   - **AWS**
     - AppSync (GraphQL), Cognito, S3, Pinpoint などの AWS サービスを AWS Amplify SDK を利用した実装
   - **GCP**
     - Cloud Storage, Google Maps API, Google Cloud API Key の活用
 - **CI/CD**
-  - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などの CI/CD ツールを用いた自動ビルド・デプロイ環境の構築
+  - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などの CI/CD ツールを用いた自動デプロイ環境の構築
 
 ### TypeScript
 
-- **OSS開発**
+- **OSS 開発**
   - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**: 
-    - ChatGPT や Claude のチャット履歴を Markdown 変換する CLI ツール（npm, Homebrew, GitHub Releases で配布）
+    - ChatGPT や Claude のチャット履歴を Markdown 変換する CLI ツール
+    - npm, Homebrew, GitHub Releases で配布
   - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap)**: 
-    - Mermaid ファイルを Markdown コードブロックでラップする CLI ツール（npm, GitHub Actions Marketplace で配布）
+    - Mermaid ファイルを Markdown コードブロックでラップする CLI ツール
+    - npm, GitHub Actions Marketplace で配布
 - **フルスタック TypeScript**
-  - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベース（Prisma）まで TypeScript で統一的に開発
-  - OpenAPI 仕様からの型生成により、API クライアント・サーバー・フロントエンドで型安全性を保証
+  - フロントエンド（React）、バックエンド（Hono）、データベース（Prisma）までを TypeScript で統一的に開発
+  - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証
 - **モダンな技術スタックの習得**
   - TanStack Router/Query、Hono、Prisma ORM などの最新ライブラリを実践的に活用
   - Zod/Valibot による実行時検証、pnpm workspace によるモノレポ管理
@@ -87,7 +89,7 @@
   - スクラムボードの設計・運用の経験
   - PdM、デザイナー、サーバーサイドエンジニアとの仕様調整の経験
 - **アジャイル開発**
-  - Jira, Confluence, GitHub Projects, Trello, Zenhub など、様々なプロジェクト管理ツールを用いた数多くのアジャイル開発の経験
+  - Jira, Confluence, GitHub Projects, Trello, Zenhub, Notion, Backlog などの管理ツールを用いたアジャイル開発の経験 
 - **Scrum Master**
   - Scrum Master として、スプリント計画、実行、レトロスペクティブのファシリテーション、スクラムボードの設計の経験
 
@@ -220,9 +222,9 @@
 
 ---
 
-<details><summary>No10. NFTゲームアプリ開発 - Flutter リードエンジニア（Flutter）</summary>
+<details><summary>No10. NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）</summary>
 
-## No10. NFTゲームアプリ開発 - Flutter リードエンジニア（Flutter）
+## No10. NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）
 
 #### チーム体制
 
