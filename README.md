@@ -203,19 +203,19 @@
 #### 経験できたこと・貢献できたこと
 
 - **実用的な OSS ライブラリの開発・運用**
-  - 2つの CLI ツールを npm パッケージとして公開し、OSS としての運用を経験できた
-  - Homebrew や GitHub Actions Marketplace など、複数の配布チャネルへのパッケージ配布を経験できた
+  - 2つの CLI ツールを npm パッケージとして公開し、実際のユーザーに利用される OSS を運用した
+  - Homebrew tap や GitHub Actions Marketplace など、複数の配布チャネルを確立した
 - **TypeScript の型システムを活用した堅牢な設計**
-  - OpenAPI 仕様から生成される型情報を、サーバー・クライアント・フロントエンドで一貫して活用し、型安全性を保証する開発フローを確立できた
-  - Zod や Valibot を用いた実行時検証と TypeScript の型システムを組み合わせ、コンパイル時と実行時の両方で安全性を担保する実装を経験できた
-  - Clean Architecture の原則を TypeScript の型システムと調和させ、テスタブルで保守性の高いコードベースを実現できた
+  - OpenAPI 仕様から生成される型情報をフルスタックで一貫して活用し、型安全な開発フローを確立した
+  - Zod/Valibot による実行時検証と TypeScript の型システムを組み合わせ、コンパイル時と実行時の両方で安全性を担保した
+  - Clean Architecture を TypeScript に適用し、テスタブルで保守性の高いコードベースを実現した
 - **モダンな TypeScript エコシステムの実践的な習得**
-  - Hono、Prisma、TanStack Router/Query など、最新の TypeScript ライブラリを実際のプロジェクトで活用し、それぞれの特徴や適用場面を深く理解できた
-  - pnpm workspace によるモノレポ管理を実践し、大規模プロジェクトでの効率的な開発手法を習得できた
-  - 異なる技術選択肢（CSS ライブラリ、ルーティングライブラリ、OpenAPI クライアント生成ツール）を実際に比較検証し、技術選定の判断基準を養うことができた
+  - Hono、Prisma、TanStack Router/Query など最新ライブラリの特徴や適用場面を深く理解した
+  - pnpm workspace によるモノレポ管理で効率的な開発手法を習得した
+  - 複数の技術選択肢を比較検証し、技術選定の判断基準を確立した
 - **フルスタック TypeScript 開発の実現**
-  - フロントエンド（React）、バックエンド（Hono）、CLI ツール、データベースアクセス（Prisma）まで、全てを TypeScript で統一的に開発する経験を積むことができた
-  - この経験により、TypeScript を共通言語として、サーバーサイド開発、CLI ツール開発、Web クライアント開発を横断的に実践できる技術力を獲得できた
+  - React、Hono、CLI、Prisma まで TypeScript で統一的に開発した
+  - サーバーサイド、CLI、Web クライアント開発を横断的に実践する技術力を獲得した
 
 </details>
 
