@@ -180,7 +180,7 @@
   - 使用技術：
     - モノレポ管理: [pnpm workspace](https://pnpm.io/workspaces)
     - OpenAPIコード生成: [@hey-api/openapi-ts](https://github.com/hey-api/openapi-ts), [openapi-typescript](https://github.com/openapi-ts/openapi-typescript), [Orval](https://github.com/orval-labs/orval), [openapi-zod-client](https://github.com/astahmer/openapi-zod-client)
-    - APIクライアント: [@hey-api/client-fetch](https://github.com/hey-api/openapi-ts/tree/main/packages/client-fetch), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query), [axios](https://github.com/axios/axios)
+    - APIクライアント: [@hey-api/client-fetch](https://github.com/hey-api/openapi-ts), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query), [axios](https://github.com/axios/axios)
     - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query)
     - モックサーバー: [Prism](https://github.com/stoplightio/prism)
 - **[css-learning](https://github.com/sugurutakahashi-1234/css-learning):**
