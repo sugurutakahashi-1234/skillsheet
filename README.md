@@ -164,42 +164,41 @@
   - pnpm workspace によるモノレポ管理によって各パッケージ（shared / database / server / web-client / api-client）を適切な依存関係での連携
   - Hono を用いて型安全な OpenAPI 仕様を生成し、その仕様から型安全な API クライアントとレスポンスの型定義を自動生成
   - 使用技術：
-    - モノレポ管理: pnpm workspace
-    - データベース: Prisma ORM, PostgreSQL
-    - サーバーサイド: Hono, @hono/zod-openapi
-    - APIクライアント: openapi-typescript, openapi-fetch, openapi-react-query
-    - フロントエンド: React, TanStack Query, Vite
-    - テスト: Vitest, Playwright, Storybook
-    - 環境変数: dotenvx（環境変数暗号化）, @t3-oss/env-core（環境変数の型安全性の担保）
-    - コード品質: Biome, Knip（デッドコード検出）, husky（Git Hooks）, Commitlint（サブタイトル必須）
-    - CI/CD: GitHub Actions, git-cliff（CHANGELOG 自動生成）, Renovate（依存関係更新）
+    - モノレポ管理: [pnpm workspace](https://pnpm.io/workspaces)
+    - データベース: [Prisma](https://github.com/prisma/prisma), PostgreSQL
+    - サーバーサイド: [Hono](https://github.com/honojs/hono), [@hono/zod-openapi](https://github.com/honojs/middleware/tree/main/packages/zod-openapi)
+    - APIクライアント: [openapi-typescript](https://github.com/openapi-ts/openapi-typescript), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query)
+    - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query), [Vite](https://github.com/vitejs/vite)
+    - テスト: [Vitest](https://github.com/vitest-dev/vitest), [Playwright](https://github.com/microsoft/playwright), [Storybook](https://github.com/storybookjs/storybook)
+    - 環境変数: [dotenvx](https://github.com/dotenvx/dotenvx), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [Knip](https://github.com/webpro-nl/knip), [husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint)
+    - CI/CD: GitHub Actions, [git-cliff](https://github.com/orhun/git-cliff), [Renovate](https://github.com/renovatebot/renovate)
 - **[openapi-gen-learning](https://github.com/sugurutakahashi-1234/openapi-gen-learning):**
   - 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
   - OpenAPIコード生成ツール（Hey API、openapi-typescript、Orval、openapi-zod-client）の実装比較と詳細な技術ドキュメンテーション
   - 生成されたクライアントコードを実際に React と TanStack Query で使用し、ブラウザ上で動作確認
   - 使用技術：
-    - モノレポ管理: pnpm workspace
-    - OpenAPIコード生成: @hey-api/openapi-ts（Zod, Valibot 含む）, openapi-typescript, Orval（MSW, @faker-js/faker 含む）, openapi-zod-client
-    - APIクライアント: @hey-api/client-fetch, openapi-fetch, openapi-react-query, axios
-    - フロントエンド: React, TanStack Query
-    - モックサーバー: Prism
+    - モノレポ管理: [pnpm workspace](https://pnpm.io/workspaces)
+    - OpenAPIコード生成: [@hey-api/openapi-ts](https://github.com/hey-api/openapi-ts), [openapi-typescript](https://github.com/openapi-ts/openapi-typescript), [Orval](https://github.com/orval-labs/orval), [openapi-zod-client](https://github.com/astahmer/openapi-zod-client)
+    - APIクライアント: [@hey-api/client-fetch](https://github.com/hey-api/openapi-ts/tree/main/packages/client-fetch), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query), [axios](https://github.com/axios/axios)
+    - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query)
+    - モックサーバー: [Prism](https://github.com/stoplightio/prism)
 - **[css-learning](https://github.com/sugurutakahashi-1234/css-learning):**
   - 7つの異なる CSS ライブラリを用いて、同一のブログアプリケーションを実装・比較検証するプロジェクト
   - CRUD（作成、読み取り、更新、削除）機能を持つ単一のブログ API をバックエンドとし、各 CSS ライブラリでフロントエンドを実装することで、それぞれの特徴を実践的に比較検証
   - 使用技術：
-    - フロントエンド: React, TanStack Query, TanStack Router, Vite
-    - スタイリング: Tailwind CSS v4、shadcn/ui、DaisyUI、Headless UI、HeroUI、cva（class-variance-authority）、Tailwind Variants
-    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
-    - モックサーバー: Prism
+    - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query), [TanStack Router](https://github.com/TanStack/router), [Vite](https://github.com/vitejs/vite)
+    - スタイリング: [Tailwind CSS v4](https://github.com/tailwindlabs/tailwindcss), [shadcn/ui](https://github.com/shadcn-ui/ui), [DaisyUI](https://github.com/saadeghi/daisyui), [Headless UI](https://github.com/tailwindlabs/headlessui), [HeroUI](https://github.com/heroui-inc/heroui), [cva](https://github.com/joe-bell/cva), [Tailwind Variants](https://github.com/nextui-org/tailwind-variants)
+    - APIクライアント: [openapi-typescript](https://github.com/openapi-ts/openapi-typescript), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query)
+    - モックサーバー: [Prism](https://github.com/stoplightio/prism)
 - **[router-learning](https://github.com/sugurutakahashi-1234/router-learning):**
   - React Router v7 と TanStack Router の 2 つのルーティングライブラリを比較検証するプロジェクト
-  - React Router v7 と TanStack Router を File-Based Routing と Code-Based Routing の両方で実装し 4パターンの実装を比較検証
   - 比較記事を Zenn に投稿 → [React Router v7 / TanStack Router x File-Based / Code-Based 4パターン実装比較](https://zenn.dev/ikuraikura/articles/2025-06-25-router)
   - 使用技術：
-    - フロントエンド: React, TanStack Query, Vite
-    - ルーティング: React Router v7、TanStack Router
-    - APIクライアント: openapi-typescript、openapi-fetch、openapi-react-query
-    - モックサーバー: Prism
+    - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query), [Vite](https://github.com/vitejs/vite)
+    - ルーティング: [React Router v7](https://github.com/remix-run/react-router), [TanStack Router](https://github.com/TanStack/router)
+    - APIクライアント: [openapi-typescript](https://github.com/openapi-ts/openapi-typescript), [openapi-fetch](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-fetch), [openapi-react-query](https://github.com/openapi-ts/openapi-typescript/tree/main/packages/openapi-react-query)
+    - モックサーバー: [Prism](https://github.com/stoplightio/prism)
 
 #### 経験できたこと・貢献できたこと
 
