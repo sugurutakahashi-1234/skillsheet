@@ -144,7 +144,7 @@
     - CLI開発: [Commander.js](https://github.com/tj/commander.js), [ora](https://github.com/sindresorhus/ora), [consola](https://github.com/unjs/consola), [zod](https://github.com/colinhacks/zod)
     - ドキュメント生成: [@ysk8hori/typescript-graph](https://github.com/ysk8hori/typescript-graph), [tsuml2](https://github.com/demike/TsUML2)
     - CI/CD: GitHub Actions, [GoReleaser](https://github.com/goreleaser/goreleaser), [release-please](https://github.com/googleapis/release-please), [release-it](https://github.com/release-it/release-it)
-    - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/Codecov/Codecov), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap):**
   - Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
   - npm パッケージ, GitHub Actions Marketplace での配布
@@ -152,10 +152,10 @@
   - `init` コマンドによる対話形式の初期設定機能
   - 使用技術：
     - アーキテクチャ: レイヤードアーキテクチャ
-    - CLI開発: Commander.js（CLI構築）, @clack/prompts（対話型プロンプト）, cosmiconfig（設定ファイル検索）, globby（ファイルパターンマッチング）, Valibot（スキーマバリデーション）
-    - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）
-    - CI/CD: GitHub Actions, release-please（自動リリース）
-    - コード品質: act（GitHub Actions のローカル環境でのテスト）, Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+    - CLI開発: [Commander.js](https://github.com/tj/commander.js), [@clack/prompts](https://github.com/bombshell-dev/clack), [cosmiconfig](https://github.com/cosmiconfig/cosmiconfig), [globby](https://github.com/sindresorhus/globby), [Valibot](https://github.com/fabian-hiller/valibot)
+    - ドキュメント生成: [@ysk8hori/typescript-graph](https://github.com/ysk8hori/typescript-graph)
+    - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
+    - コード品質: [act](https://github.com/nektos/act), [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 
 #### 技術検証リポジトリ
 
