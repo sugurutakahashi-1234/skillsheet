@@ -132,7 +132,7 @@
 - TypeScript 製の OSS ライブラリ開発（実用的な CLI ツール）
 - モダンな TypeScript 技術の包括的な学習・比較検証のためのリポジトリ群
 
-#### OSS ライブラリ
+#### OSS ライブラリ開発
 
 - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export):**
   - ChatGPT と Claude のチャット履歴を Markdown ファイルに変換する CLI ツール
@@ -203,8 +203,8 @@
 #### 経験できたこと・貢献できたこと
 
 - **実用的な OSS ライブラリの開発・運用**
-  - 2つの CLI ツールを npm パッケージとして公開し、実際のユーザーに利用されるプロダクトとして運用を経験できた
-  - Homebrew tap や GitHub Actions Marketplace など、複数の配布チャネルを確立し、ユーザーの利便性を最大化できた
+  - 2つの CLI ツールを npm パッケージとして公開し、OSS としての運用を経験できた
+  - Homebrew や GitHub Actions Marketplace など、複数の配布チャネルへのパッケージ配布を経験できた
 - **TypeScript の型システムを活用した堅牢な設計**
   - OpenAPI 仕様から生成される型情報を、サーバー・クライアント・フロントエンドで一貫して活用し、型安全性を保証する開発フローを確立できた
   - Zod や Valibot を用いた実行時検証と TypeScript の型システムを組み合わせ、コンパイル時と実行時の両方で安全性を担保する実装を経験できた
