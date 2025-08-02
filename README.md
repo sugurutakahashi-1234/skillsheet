@@ -141,10 +141,10 @@
   - 日付範囲の指定やキーワード検索によるフィルタリング機能の対応
   - 使用技術：
     - アーキテクチャ: Clean Architecture
-    - CLI開発: Commander.js（CLI構築）, Ora（スピナー）, Consola（ロギング）, Zod（スキーマバリデーション）
-    - ドキュメント生成: @ysk8hori/typescript-graph（依存関係の Mermaid 図の生成）, tsuml2（UML 図生成）
-    - CI/CD: GitHub Actions, GoReleaser（バイナリ配布時）, release-please（自動リリース）, release-it（手動リリース）
-    - コード品質: Biome, husky（Git Hooks）, Codecov（テストカバレッジレポート）, Renovate（依存関係更新）, Knip（デッドコード検出）, commitlint（コミットメッセージ規約）, @elsikora/git-branch-lint（ブランチ名規約）
+    - CLI開発: [Commander.js](https://github.com/tj/commander.js), [ora](https://github.com/sindresorhus/ora), [consola](https://github.com/unjs/consola), [zod](https://github.com/colinhacks/zod)
+    - ドキュメント生成: [@ysk8hori/typescript-graph](https://github.com/ysk8hori/typescript-graph), [tsuml2](https://github.com/demike/TsUML2)
+    - CI/CD: GitHub Actions, [GoReleaser](https://github.com/goreleaser/goreleaser), [release-please](https://github.com/googleapis/release-please), [release-it](https://github.com/release-it/release-it)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/Codecov/Codecov), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap):**
   - Mermaid ファイル（.mmd/.mermaid）を Markdown コードブロックでラップする CLI ツール
   - npm パッケージ, GitHub Actions Marketplace での配布
