@@ -168,6 +168,8 @@
 - **[issue-linker](https://github.com/sugurutakahashi-1234/issue-linker):**
   - GitHubのIssue参照を実際に検証するCLI/GitHub Actionツール
   - npm パッケージ, GitHub Actions Marketplace での配布
+  - JavaScript Actionとして実装し、Composite ActionよりもGitHub Actions実行時間を短縮
+  - @vercel/nccによるシングルファイルバンドルで依存関係のインストール時間を削減し、Action起動を高速化
   - Bun workspaceによるモノレポ構成でCLI・Action・Coreライブラリを管理
   - 単なるパターンマッチングではなくGitHub APIでIssue番号の実在を確認
   - ブランチ名やコミットメッセージごとに最適化された検出パターンを提供
