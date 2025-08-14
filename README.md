@@ -169,6 +169,17 @@
     - ビルド: [Bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
     - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
     - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
+- **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel):**
+  - READMEの翻訳版と原文の構造的一貫性を検証するCLIツール
+  - npm パッケージでの配布
+  - glob patternによる翻訳ファイルの自動検出、行番号レベルでの精密な構造比較
+  - 使用技術：
+    - アーキテクチャ: レイヤードアーキテクチャ
+    - CLI開発: [Commander.js](https://github.com/tj/commander.js), [zod](https://github.com/colinhacks/zod)
+    - 差分検出: [diff](https://github.com/kpdecker/jsdiff), [globby](https://github.com/sindresorhus/globby)
+    - ドキュメント生成: [@ysk8hori/typescript-graph](https://github.com/ysk8hori/typescript-graph)
+    - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 
 #### 技術検証リポジトリ
 
