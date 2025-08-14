@@ -9,9 +9,9 @@
 - **モバイルアプリ開発**：Swift (7年) を中心に幅広い技術スタックを習得
 - **リードエンジニア実績**：0 → 1 フェーズでのリードエンジニア経験（4件）
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
-- **高度な技術の実装経験**：Clean Architecture の適応, IoT 連携、視線・感情分析 SDK の組み込み
+- **高度な技術の実装経験**：Clean Architecture の適用, IoT 連携、視線・感情分析 SDK の組み込み
 - **チーム開発**：PdM、デザイナー、バックエンドとの要件策定・仕様調整、チームの進捗管理、開発プロセスの改善
-- **OSS開発**：TypeScript 製 CLI ツール 4つを開発・公開、npm / Homebrew / GitHub Actions Marketplace などで配布
+- **OSS開発**：TypeScript 製 CLI ツール 4つを短期間で開発・公開、npm / Homebrew / GitHub Actions Marketplace などで配布
 
 ### スキル
 
@@ -24,6 +24,7 @@
 - **クラウド**: Firebase, AWS Amplify (AppSync, Cognito, S3), GCP
 - **CI/CD**: Xcode Cloud, GitHub Actions, Bitrise
 - **プロジェクト管理**: Scrum Master 経験, アジャイル開発 (Jira, GitHub Projects, Zenhub)
+- **AI活用**: Claude Code, GitHub Copilot, ChatGPT Plus, Devin, gpt-oss, Gemini CLI, Codex CLI, MCP連携
 
 ## 基本情報
 
@@ -64,9 +65,9 @@
   - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**:
     - ChatGPT や Claude のチャット履歴を Markdown 変換するツール（npm, Homebrew）
   - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap)**:
-    - Mermaid ファイルを Markdown コードブロックでラップするツール（npm, GitHub Actions）
+    - Mermaid ファイルを Markdown コードブロックでラップするツール（npm, GitHub Actions Marketplace）
   - **[issue-linker](https://github.com/sugurutakahashi-1234/issue-linker)**:
-    - コミットメッセージ、ブランチ名から GitHub Issue への参照を検証するツール（npm, GitHub Actions）
+    - コミットメッセージ、ブランチ名から GitHub Issue への参照を検証するツール（npm, GitHub Actions Marketplace）
   - **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel)**:
     - README の翻訳版と原文の構造的一貫性を検証するツール（npm）
 - **フルスタック TypeScript**
@@ -94,6 +95,12 @@
   - Jira, Confluence, GitHub Projects, Trello, Zenhub, Notion, Backlog などの管理ツールを用いたアジャイル開発の経験 
 - **Scrum Master**
   - Scrum Master として、スプリント計画、実行、レトロスペクティブのファシリテーション、スクラムボードの設計の経験
+
+### AI活用
+
+- **コーディング支援AIツールの実践的活用**
+  - Claude Code、GitHub Copilot、ChatGPT Plus、Devin、gpt-oss、Gemini CLI、Codex CLI、MCP連携など複数のAIツールを活用
+  - 技術記事：[TypeScript未経験からClaude Codeで3週間でOSSを作った話](https://zenn.dev/ikuraikura/articles/2025-08-02-oss)
 
 ## 職務経歴
 
