@@ -11,7 +11,7 @@
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
 - **高度な技術の実装経験**：Clean Architecture の適応, IoT 連携、視線・感情分析 SDK の組み込み
 - **チーム開発**：PdM、デザイナー、バックエンドとの要件策定・仕様調整、チームの進捗管理、開発プロセスの改善
-- **OSS開発**：TypeScript 製 CLI ツール 2つを開発・公開、npm / Homebrew / GitHub Actions Marketplace で配布
+- **OSS開発**：TypeScript 製 CLI ツール 4つを開発・公開、npm / Homebrew / GitHub Actions Marketplace などで配布
 
 ### スキル
 
@@ -61,12 +61,14 @@
 ### TypeScript
 
 - **OSS 開発**
-  - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**: 
-    - ChatGPT や Claude のチャット履歴を Markdown 変換する CLI ツール
-    - npm, Homebrew, GitHub Releases で配布
-  - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap)**: 
-    - Mermaid ファイルを Markdown コードブロックでラップする CLI ツール
-    - npm, GitHub Actions Marketplace で配布
+  - **[ai-chat-md-export](https://github.com/sugurutakahashi-1234/ai-chat-md-export)**:
+    - ChatGPT や Claude のチャット履歴を Markdown 変換するツール（npm, Homebrew）
+  - **[mermaid-markdown-wrap](https://github.com/sugurutakahashi-1234/mermaid-markdown-wrap)**:
+    - Mermaid ファイルを Markdown コードブロックでラップするツール（npm, GitHub Actions）
+  - **[issue-linker](https://github.com/sugurutakahashi-1234/issue-linker)**:
+    - コミットメッセージ、ブランチ名から GitHub Issue への参照を検証するツール（npm, GitHub Actions）
+  - **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel)**:
+    - README の翻訳版と原文の構造的一貫性を検証するツール（npm）
 - **フルスタック TypeScript**
   - フロントエンド（React）、バックエンド（Hono）、データベース（Prisma）までを TypeScript で統一的に開発
   - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証
