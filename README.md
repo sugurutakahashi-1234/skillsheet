@@ -156,6 +156,19 @@
     - ドキュメント生成: [@ysk8hori/typescript-graph](https://github.com/ysk8hori/typescript-graph)
     - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
     - コード品質: [act](https://github.com/nektos/act), [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
+- **[issue-linker](https://github.com/sugurutakahashi-1234/issue-linker):**
+  - GitHubのIssue参照を実際に検証するCLI/GitHub Actionツール
+  - npm パッケージ, GitHub Actions Marketplace での配布
+  - Bun workspaceによるモノレポ構成でCLI・Action・Coreライブラリを管理
+  - 単なるパターンマッチングではなくGitHub APIでIssue番号の実在を確認
+  - ブランチ名やコミットメッセージごとに最適化された検出パターンを提供
+  - 使用技術：
+    - アーキテクチャ: レイヤードアーキテクチャ
+    - CLI開発: [Commander.js](https://github.com/tj/commander.js), [Valibot](https://github.com/fabian-hiller/valibot)
+    - GitHub連携: [Octokit](https://github.com/octokit/octokit.js), [simple-git](https://github.com/steveukx/git-js), [micromatch](https://github.com/micromatch/micromatch), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
+    - ビルド: [Bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
+    - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 
 #### 技術検証リポジトリ
 
