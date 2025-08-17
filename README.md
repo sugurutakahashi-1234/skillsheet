@@ -53,7 +53,7 @@
   - **Firebase**
     - Authentication, Firestore, Storage, Analytics, Crashlytics, App Distribution など、Firebase SDK を利用した実装
   - **AWS**
-    - AppSync (GraphQL), Cognito, S3, Pinpoint などの AWS サービスを AWS Amplify SDK を利用した実装
+    - AppSync, Cognito, S3, Pinpoint などの AWS サービスを Amplify SDK を利用して連携
   - **GCP**
     - Cloud Storage, Google Maps API, Google Cloud API Key の活用
 - **CI/CD**
