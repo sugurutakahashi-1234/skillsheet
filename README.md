@@ -51,7 +51,7 @@
   - ドローンなどのハードウェア機器の制御や、インカメラを使った視線分析、感情分析といった高度な実装スキルを要するライブラリの組み込み
 - **mBaaS 連携**
   - **Firebase**
-    - Authentication, Firestore, Storage, Analytics, Crashlytics, App Distribution など、Firebase SDK を利用した実装
+    - Authentication, Firestore, Storage, Analytics, Crashlytics, App Distribution など Firebase SDK を利用した実装
   - **AWS**
     - AppSync, Cognito, S3, Pinpoint などの AWS サービスを Amplify SDK を利用して連携
   - **GCP**
@@ -71,7 +71,7 @@
   - **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel)**:
     - README の翻訳版と原文の構造的一貫性を検証するツール（npm）
 - **フルスタック TypeScript**
-  - フロントエンド（React）、バックエンド（Hono）、データベース（Prisma）までを TypeScript で統一的に開発
+  - フロントエンド（React）、バックエンド（Hono）、データベース（Prisma）までを TypeScript で統一したフルスタック開発を経験
   - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証
 - **モダンな技術スタックの習得**
   - TanStack Router/Query、Hono、Prisma ORM などの最新ライブラリを実践的に活用
