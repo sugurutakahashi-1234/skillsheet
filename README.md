@@ -57,7 +57,7 @@
   - **GCP**
     - Cloud Storage, Google Maps API, Google Cloud API Key の活用
 - **CI/CD**
-  - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などの CI/CD ツールを用いた自動デプロイ環境の構築
+  - Xcode Cloud, Bitrise, GitHub Actions, Codemagic などを利用した CI/CD 環境の構築
 
 ### TypeScript
 
