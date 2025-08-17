@@ -11,7 +11,7 @@
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
 - **高度な技術の実装経験**：Clean Architecture の適用, IoT 連携、視線・感情分析 SDK の組み込み
 - **チーム開発**：PdM、デザイナー、バックエンドとの要件策定・仕様調整、チームの進捗管理、開発プロセスの改善
-- **OSS開発**：TypeScript 製 CLI ツール 4つを短期間で開発・公開、npm / Homebrew / GitHub Actions Marketplace などで配布
+- **OSS開発**：4つの TypeScript 製 CLI ツール 開発、npm / Homebrew / GitHub Actions Marketplace などで配布
 
 ### スキル
 
@@ -43,7 +43,7 @@
   - SwiftUI, Combine, Swift Concurrency, Swift Package Manager といった Swift のモダンな技術を活用した実装
   - Swift について多数のブログ記事の投稿 → Zenn: https://zenn.dev/ikuraikura
 - **Flutter**
-  - Flutter によるクロスプラットフォームアプリの開発
+  - Flutter による iOS / Android のクロスプラットフォームアプリの開発
 - **アーキテクチャ**
   - Clean Architecture, VIPER, MVVM, Redux, Riverpod + Hooks などの様々なアーキテクチャの経験
   - Swift Package Manager を使用したマルチモジュールアプリの設計・実装
@@ -85,22 +85,24 @@
 
 ### チーム開発
 
-- **リードエンジニア(4件)**
+- **リードエンジニア（4 件）**
   - 0 → 1 フェーズでのリードエンジニアの経験（4 件）
   - アーキテクチャやライブラリの選定を含むプロジェクト立ち上げにおける技術選定の経験
   - プロジェクトのブランチ戦略、CI/CD 環境の設計・構築
   - スクラムボードの設計・運用の経験
   - PdM、デザイナー、サーバーサイドエンジニアとの仕様調整の経験
 - **アジャイル開発**
-  - Jira, Confluence, GitHub Projects, Trello, Zenhub, Notion, Backlog などの管理ツールを用いたアジャイル開発の経験 
+  - スクラム、カンバンなどの手法を用いたアジャイル開発の経験
+  - Jira, Confluence, GitHub Projects, Trello, Zenhub, Notion, Backlog などのプロジェクト管理ツールの経験
 - **Scrum Master**
   - Scrum Master として、スプリント計画、実行、レトロスペクティブのファシリテーション、スクラムボードの設計の経験
 
 ### AI活用
 
 - **コーディング支援AIツールの実践的活用**
-  - Claude Code、GitHub Copilot、ChatGPT Plus、Devin、gpt-oss、Gemini CLI、Codex CLI、MCP連携など複数のAIツールを活用
-  - 技術記事：[TypeScript未経験からClaude Codeで3週間でOSSを作った話](https://zenn.dev/ikuraikura/articles/2025-08-02-oss)
+  - Claude Code, Gemini CLI, Codex CLI, GitHub Copilot, Devin, MCP 連携などの複数の AI ツールを活用
+  - Zenn で 100 いいね以上を獲得した技術記事を執筆:
+    - [無職が Claude Code を使って 3 週間かけて OSS ライブラリを開発したけど誰も使ってくれなかった話](https://zenn.dev/ikuraikura/articles/2025-08-02-oss)
 
 ## 職務経歴
 
