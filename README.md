@@ -4,7 +4,7 @@
 
 ## サマリー
 
-### 経験
+### 強み
 
 - **モバイルアプリ開発**：Swift (7年) を中心に幅広い技術スタックを習得
 - **リードエンジニア実績**：0 → 1 フェーズでのリードエンジニア経験（4件）
@@ -13,7 +13,7 @@
 - **チーム開発**：PdM、デザイナー、サーバーサイドチームとの要件や仕様の調整、チームの進捗管理、開発プロセスの改善
 - **OSS開発**：4つの TypeScript 製 CLI ツール 開発、npm / Homebrew / GitHub Actions Marketplace にて配布
 
-### スキル
+### 技術スタック
 
 - **言語**: Swift (7年), Dart, TypeScript, JavaScript, PHP, Java
 - **モバイルアプリ開発**: SwiftUI, UIKit, Swift Package Manager, Flutter
