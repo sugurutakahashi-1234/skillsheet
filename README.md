@@ -75,7 +75,7 @@
   - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証
 - **モダンな技術スタックの習得**
   - TanStack Router/Query、Hono、Prisma ORM などの最新ライブラリを実践的に活用
-  - Zod/Valibot による実行時検証、pnpm workspace によるモノレポ管理
+  - bun workspaces および pnpm workspaces によるモノレポ管理
 - **アーキテクチャ設計**
   - Clean Architecture、レイヤードアーキテクチャを TypeScript の型システムと調和させた設計
   - 複数の技術選択肢（CSS ライブラリ、ルーティングライブラリ、OpenAPI 生成ツール）の比較検証による技術選定力
@@ -172,14 +172,14 @@
   - npm パッケージ, GitHub Actions Marketplace での配布
   - JavaScript Actionとして実装し、Composite ActionよりもGitHub Actions実行時間を短縮
   - @vercel/nccによるシングルファイルバンドルで依存関係のインストール時間を削減し、Action起動を高速化
-  - Bun workspaceによるモノレポ構成でCLI・Action・Coreライブラリを管理
+  - bun workspaceによるモノレポ構成でCLI・Action・Coreライブラリを管理
   - 単なるパターンマッチングではなくGitHub APIでIssue番号の実在を確認
   - ブランチ名やコミットメッセージごとに最適化された検出パターンを提供
   - 使用技術：
     - アーキテクチャ: レイヤードアーキテクチャ
     - CLI開発: [Commander.js](https://github.com/tj/commander.js), [Valibot](https://github.com/fabian-hiller/valibot)
     - GitHub連携: [Octokit](https://github.com/octokit/octokit.js), [simple-git](https://github.com/steveukx/git-js), [micromatch](https://github.com/micromatch/micromatch), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
-    - ビルド: [Bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
+    - ビルド: [bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
     - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
     - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 - **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel):**
