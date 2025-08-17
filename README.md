@@ -72,16 +72,16 @@
     - README の翻訳版と原文の構造的一貫性を検証するツール（npm）
 - **フルスタック TypeScript**
   - フロントエンド（React）、バックエンド（Hono）、データベース（Prisma）までを TypeScript で統一したフルスタック開発を経験
-  - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証
+  - OpenAPI 仕様から型安全な API クライアントを生成し、サーバー・クライアント間での型安全性を保証するスキーマ駆動開発の実践
 - **モダンな技術スタックの習得**
   - TanStack Router/Query、Hono、Prisma ORM などの最新ライブラリを実践的に活用
   - bun workspaces および pnpm workspaces によるモノレポ管理
 - **アーキテクチャ設計**
-  - Clean Architecture、レイヤードアーキテクチャを TypeScript の型システムと調和させた設計
-  - 複数の技術選択肢（CSS ライブラリ、ルーティングライブラリ、OpenAPI 生成ツール）の比較検証による技術選定力
+  - Clean Architecture、レイヤードアーキテクチャを TypeScript に適用した実装・設計の経験
+  - CSS ライブラリやルーティングライブラリ、OpenAPI生成ツールなど、プロジェクトに応じたライブラリ選定の経験
 - **開発環境の構築**
-  - GitHub Actions による CI/CD パイプライン、release-please による自動リリース
-  - Biome、Knip、Renovate を活用した継続的なコード品質向上の仕組み構築
+  - GitHub Actions による CI/CD パイプライン、release-please による自動リリースの経験
+  - Biome、Knip、Renovate を活用した継続的なコード品質向上の仕組みの構築
 
 ### チーム開発
 
