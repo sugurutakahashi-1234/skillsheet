@@ -24,7 +24,7 @@
 - **クラウド**: Firebase, AWS Amplify (AppSync, Cognito, S3), GCP
 - **CI/CD**: Xcode Cloud, GitHub Actions, Bitrise
 - **プロジェクト管理**: Scrum Master 経験, アジャイル開発 (Jira, GitHub Projects, Zenhub)
-- **AI活用**: Claude Code, GitHub Copilot, ChatGPT Plus, Devin, gpt-oss, Gemini CLI, Codex CLI, MCP連携
+- **AI活用**: Claude Code, Gemini CLI, Codex CLI, GitHub Copilot, Devin, MCP連携
 
 ## 基本情報
 
