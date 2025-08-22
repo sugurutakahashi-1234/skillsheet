@@ -177,6 +177,7 @@
   - ブランチ名やコミットメッセージごとに最適化された検出パターンを提供
   - 使用技術：
     - アーキテクチャ: レイヤードアーキテクチャ
+    - モノレポ管理: [bun workspace](https://bun.com/docs/install/workspaces)
     - CLI開発: [Commander.js](https://github.com/tj/commander.js), [Valibot](https://github.com/fabian-hiller/valibot)
     - GitHub連携: [Octokit](https://github.com/octokit/octokit.js), [simple-git](https://github.com/steveukx/git-js), [micromatch](https://github.com/micromatch/micromatch), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
     - ビルド: [bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
@@ -208,7 +209,7 @@
     - フロントエンド: [React](https://github.com/facebook/react), [TanStack Query](https://github.com/TanStack/query), [Vite](https://github.com/vitejs/vite)
     - テスト: [Vitest](https://github.com/vitest-dev/vitest), [Playwright](https://github.com/microsoft/playwright), [Storybook](https://github.com/storybookjs/storybook)
     - 環境変数: [dotenvx](https://github.com/dotenvx/dotenvx), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
-    - コード品質: [Biome](https://github.com/biomejs/biome), [Knip](https://github.com/webpro-nl/knip), [husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint)
+    - コード品質: [Biome](https://github.com/biomejs/biome), [Knip](https://github.com/webpro-nl/knip), [husky](https://github.com/typicode/husky), [commitlint](https://github.com/conventional-changelog/commitlint)
     - CI/CD: GitHub Actions, [git-cliff](https://github.com/orhun/git-cliff), [Renovate](https://github.com/renovatebot/renovate)
 - **[openapi-gen-learning](https://github.com/sugurutakahashi-1234/openapi-gen-learning):**
   - 単一の OpenAPI 仕様から異なるTypeScriptクライアント生成ツールを比較検証するリポジトリ
