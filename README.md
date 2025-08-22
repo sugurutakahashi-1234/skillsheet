@@ -180,7 +180,7 @@
     - モノレポ管理: [bun workspace](https://bun.com/docs/install/workspaces)
     - CLI開発: [Commander.js](https://github.com/tj/commander.js), [Valibot](https://github.com/fabian-hiller/valibot)
     - GitHub連携: [Octokit](https://github.com/octokit/octokit.js), [simple-git](https://github.com/steveukx/git-js), [micromatch](https://github.com/micromatch/micromatch), [@t3-oss/env-core](https://github.com/t3-oss/t3-env)
-    - ビルド: [bun workspace](https://bun.sh/docs/install/workspaces), [@vercel/ncc](https://github.com/vercel/ncc)
+    - ビルド: [@vercel/ncc](https://github.com/vercel/ncc)
     - CI/CD: GitHub Actions, [release-please](https://github.com/googleapis/release-please)
     - コード品質: [Biome](https://github.com/biomejs/biome), [husky](https://github.com/typicode/husky), [Codecov](https://github.com/codecov/codecov-action), [Renovate](https://github.com/renovatebot/renovate), [Knip](https://github.com/webpro-nl/knip), [commitlint](https://github.com/conventional-changelog/commitlint), [@elsikora/git-branch-lint](https://github.com/elsikora/git-branch-lint)
 - **[readme-i18n-sentinel](https://github.com/sugurutakahashi-1234/readme-i18n-sentinel):**
