@@ -135,9 +135,9 @@
 
 ---
 
-<details><summary>[No.12] ショートドラマアプリ開発 - React Native エンジニア（エンタメ業界 G社）</summary>
+<details><summary>[No.12] ショートドラマアプリ開発 - React Native エンジニア（React Native）</summary>
 
-## [No.12] ショートドラマアプリ開発 - React Native エンジニア（エンタメ業界 G社）
+## [No.12] ショートドラマアプリ開発 - React Native エンジニア（React Native）
 
 現在参画中のプロジェクトです。詳細は追って記載します。
 
