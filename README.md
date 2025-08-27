@@ -109,6 +109,7 @@
 ### フリーランス (2021年07月 - 現在)
 
 - 2025年
+  - [No.12] ショートドラマアプリ開発 - React Native エンジニア（エンタメ業界 G社）（現在参画中）
   - [No.11] TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）
   - [No.10] NFT ゲームアプリ開発 - Flutter リードエンジニア（WEB3 特化 SIer F社）
 - 2024年
@@ -134,9 +135,19 @@
 
 ---
 
-<details><summary>No11. TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）</summary>
+<details><summary>[No.12] ショートドラマアプリ開発 - React Native エンジニア（エンタメ業界 G社）</summary>
 
-## No11. TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）
+## [No.12] ショートドラマアプリ開発 - React Native エンジニア（エンタメ業界 G社）
+
+現在参画中のプロジェクトです。詳細は追って記載します。
+
+</details>
+
+---
+
+<details><summary>[No.11] TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）</summary>
+
+## [No.11] TypeScript 製 OSS 開発・技術学習 - 個人開発（TypeScript）
 
 #### 概要
 
@@ -259,9 +270,9 @@
 
 ---
 
-<details><summary>No10. NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）</summary>
+<details><summary>[No.10] NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）</summary>
 
-## No10. NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）
+## [No.10] NFT ゲームアプリ開発 - Flutter リードエンジニア（Flutter）
 
 #### チーム体制
 
@@ -337,9 +348,9 @@
 
 ---
 
-<details><summary>No9. SNS アプリ開発 - iOS リードエンジニア（Swift）</summary>
+<details><summary>[No.9] SNS アプリ開発 - iOS リードエンジニア（Swift）</summary>
 
-## No9. SNS アプリ開発 - iOS リードエンジニア（Swift）
+## [No.9] SNS アプリ開発 - iOS リードエンジニア（Swift）
 
 #### チーム体制
 
@@ -417,9 +428,9 @@
 
 ---
 
-<details><summary>No8. Clean Architecture ベースの新アーキテクチャの考案 - 個人開発（Swift）</summary>
+<details><summary>[No.8] Clean Architecture ベースの新アーキテクチャの考案 - 個人開発（Swift）</summary>
 
-## No8. Clean Architecture ベースの新アーキテクチャの考案 - 個人開発（Swift）
+## [No.8] Clean Architecture ベースの新アーキテクチャの考案 - 個人開発（Swift）
 
 #### 概要
 
@@ -466,9 +477,9 @@
 
 ---
 
-<details><summary>No7. マーケティングリサーチアプリ開発 - iOS リードエンジニア（Swift）</summary>
+<details><summary>[No.7] マーケティングリサーチアプリ開発 - iOS リードエンジニア（Swift）</summary>
 
-## No7. マーケティングリサーチアプリ開発 - iOS リードエンジニア（Swift）
+## [No.7] マーケティングリサーチアプリ開発 - iOS リードエンジニア（Swift）
 
 #### チーム体制
 
@@ -548,9 +559,9 @@
 
 ---
 
-<details><summary>No6. ファンクラブアプリ開発 - iOS エンジニア（Swift）</summary>
+<details><summary>[No.6] ファンクラブアプリ開発 - iOS エンジニア（Swift）</summary>
 
-## No6. ファンクラブアプリ開発 - iOS エンジニア（Swift）
+## [No.6] ファンクラブアプリ開発 - iOS エンジニア（Swift）
 
 #### チーム体制
 
@@ -604,9 +615,9 @@
 
 ---
 
-<details><summary>No5. ドローン制御アプリ開発 - iOS エンジニア（Swift）</summary>
+<details><summary>[No.5] ドローン制御アプリ開発 - iOS エンジニア（Swift）</summary>
 
-## No5. ドローン制御アプリ開発 - iOS エンジニア（Swift）
+## [No.5] ドローン制御アプリ開発 - iOS エンジニア（Swift）
 
 #### チーム体制
 
@@ -684,9 +695,9 @@
 
 ---
 
-<details><summary>No4. ショッピングアプリ開発 - Flutter エンジニア（Flutter）</summary>
+<details><summary>[No.4] ショッピングアプリ開発 - Flutter エンジニア（Flutter）</summary>
 
-## No4. ショッピングアプリ開発 - Flutter エンジニア（Flutter）
+## [No.4] ショッピングアプリ開発 - Flutter エンジニア（Flutter）
 
 #### チーム体制
 
@@ -744,9 +755,9 @@
 
 ---
 
-<details><summary>No3. 飲食店管理アプリ開発 - iOS リードエンジニア（Swift）</summary>
+<details><summary>[No.3] 飲食店管理アプリ開発 - iOS リードエンジニア（Swift）</summary>
 
-## No3. 飲食店管理アプリ開発 - iOS リードエンジニア（Swift）
+## [No.3] 飲食店管理アプリ開発 - iOS リードエンジニア（Swift）
 
 #### チーム体制
 
@@ -799,9 +810,9 @@
 
 ---
 
-<details><summary>No2. クレジットカードアプリ iOS アプリ開発 - iOS エンジニア（Swift）</summary>
+<details><summary>[No.2] クレジットカードアプリ iOS アプリ開発 - iOS エンジニア（Swift）</summary>
 
-## No2. クレジットカードアプリ iOS アプリ開発 - iOS エンジニア（Swift）
+## [No.2] クレジットカードアプリ iOS アプリ開発 - iOS エンジニア（Swift）
 
 #### チーム体制
 
@@ -855,9 +866,9 @@
 
 ---
 
-<details><summary>No1. クレジットカードアプリ API 開発 - サーバーサイドエンジニア（PHP）</summary>
+<details><summary>[No.1] クレジットカードアプリ API 開発 - サーバーサイドエンジニア（PHP）</summary>
 
-## No1. クレジットカードアプリ API 開発 - サーバーサイドエンジニア（PHP）
+## [No.1] クレジットカードアプリ API 開発 - サーバーサイドエンジニア（PHP）
 
 #### チーム体制
 
