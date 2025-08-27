@@ -6,7 +6,7 @@
 
 ### 強み
 
-- **モバイルアプリ開発**：Swift (7年) を中心に幅広い技術スタックを習得
+- **モバイルアプリ開発**：Swift を中心に Flutter, React Native などのクロスプラットフォーム開発も経験
 - **リードエンジニア実績**：0 → 1 フェーズでのリードエンジニア経験（4件）
 - **開発基盤の構築**：ライブラリの選定、アーキテクチャの設計、CI/CD 環境の構築
 - **高度な技術の実装経験**：Clean Architecture の適用, IoT 連携、視線・感情分析 SDK の組み込み
@@ -16,7 +16,7 @@
 ### 技術スタック
 
 - **言語**: Swift (7年), Dart, TypeScript, JavaScript, PHP, Java
-- **モバイルアプリ開発**: SwiftUI, UIKit, Swift Package Manager, Flutter
+- **モバイルアプリ開発**: SwiftUI, UIKit, Swift Package Manager, Flutter, React Native
 - **Web クライアント**: React, TanStack Router/Query, Tailwind CSS, shadcn/ui
 - **サーバーサイド**: TypeScript (Hono), REST API 設計, GraphQL 設計, Node.js, Express, PHP, Java
 - **アーキテクチャ**: Clean Architecture, VIPER, MVVM, Redux, Riverpod
