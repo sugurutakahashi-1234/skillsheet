@@ -44,6 +44,8 @@
   - Swift について多数のブログ記事の投稿 → Zenn: https://zenn.dev/ikuraikura
 - **Flutter**
   - Flutter による iOS / Android のクロスプラットフォームアプリの開発
+- **React Native**
+  - React Native による iOS / Android のクロスプラットフォームアプリの開発
 - **アーキテクチャ**
   - Clean Architecture, VIPER, MVVM, Redux, Riverpod + Hooks などの様々なアーキテクチャの経験
   - Swift Package Manager を使用したマルチモジュールアプリの設計・実装
