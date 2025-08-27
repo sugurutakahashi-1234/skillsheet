@@ -1,6 +1,6 @@
 # スキルシート
 
-- このスキルシートのリンク - https://github.com/suguruTakahashi-1234/skillsheet
+- このスキルシートのリンク - https://github.com/sugurutakahashi-1234/skillsheet
 
 ## サマリー
 
@@ -429,9 +429,9 @@
 ##### リポジトリ
 
 - **Framework-Independent Architecture (FIA):** FIA の紹介
-  - https://github.com/suguruTakahashi-1234/framework-independent-architecture
+  - https://github.com/sugurutakahashi-1234/framework-independent-architecture
 - **FIA Practical Sample:** FIA を採用した実践的なプロジェクト
-  - https://github.com/suguruTakahashi-1234/fia-practical-sample
+  - https://github.com/sugurutakahashi-1234/fia-practical-sample
 
 ##### スライド
 
